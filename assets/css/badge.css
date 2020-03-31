@@ -1,0 +1,22 @@
+.badge {
+  padding: 2px 9px 2px;
+  white-space: nowrap;
+  font-size: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #999999;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+.badge:hover {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.badge-notify {
+  background-color: red;
+}
+.badge-notify:hover {
+  background-color: red;
+}  
