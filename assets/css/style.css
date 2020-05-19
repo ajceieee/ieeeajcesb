@@ -16,7 +16,7 @@ a:hover {
   display: flex;
   flex-flow: row wrap;
   justify-content: left;
-  align-items: center;  
+  align-items: center;
   letter-spacing: 3px;
   color: rgba(255, 255, 255, 0.8);
   padding: 0 0;
@@ -72,3 +72,4 @@ a:hover {
   pointer-events: none;
   z-index: 1;
 }
+

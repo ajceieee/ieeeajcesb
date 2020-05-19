@@ -1,0 +1,85 @@
+/* Css Styles */
+
+/* News Updates */
+
+.sub-menu-news {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  max-height: 400px;
+  align-items: center;
+  font-weight: 900;
+  border-radius: 5px;
+  overflow-y: auto;
+  overflow-x: none;
+}
+
+/* News List Items Style  */
+
+.card-news-list {
+  margin-top: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  max-width: 300px;
+  max-height: 200px;
+  font-family: poppins;
+
+  /* 5px rounded corners */
+}
+
+.card-news-list .card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #7e7e7e;
+}
+
+.card-news-list .card-content,
+.card-footer {
+  font-weight: 100;
+}
+
+#sroll-bar::-webkit-scrollbar {
+  width: 10px;
+  background-color: #1b1d1f;
+}
+/* 
+#scroll-bar::-webkit-scrollbar-thumb {
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.44, rgb(122, 153, 217)),
+    color-stop(0.72, rgb(73, 125, 189)),
+    color-stop(0.86, rgb(28, 58, 148))
+  );
+} */
+
+.testimonials-card {
+  border-radius: 10px;
+}
+.computer-Society {
+  background-color: #faa41a;
+  color: white;
+}
+
+.computer-Society .testimonials-card-author h4 {
+  color: white;
+}
+.ias-society {
+  background-color: #048a47;
+  color: white;
+}
+.ias-society .testimonials-card-author h4 {
+  color: white;
+}
+
+@media (max-width: 991) {
+  #scroll-bar::-webkit-scrollbar {
+    width: 10px;
+    background-color: #1b1d1f;
+  }
+}
