@@ -22,8 +22,13 @@
 		<link href="assets/css/template.min.css" rel="stylesheet">
 		<!--Social Media Buttons-->
 		<link href="/assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		
+		
 		<link rel="stylesheet" href="assets/css/social_btns.css">
 		<link rel="stylesheet" href="assets/css/badge.css">
+		<!-- Basic css Files -->
+		<link rel="stylesheet" href="assets/css/basics.css">
+		
 		<script>
 				var host = "ieeeajce.org";
 				if ((host == window.location.host) && (window.location.protocol != "https:"))
@@ -93,8 +98,7 @@
 													<li><a href="talk_sky.html">Talk On "Beyond The Sky"</a></li>
 													<li><a href="meet2.html">Execom Meeting 2</a></li>
 													<li><a href="quiz.html">Science Week Quiz</a></li>
-													<li><a href="talk_engineer.html">Talk on "Engineering and Women"</a></li>
-													<li><a href="WIE_week.html">WIE week - Elaboration on computer hardware</a></li>
+	<li><a href="talk_engineer.html">Talk on "Engineering and Women"</a></li>
 													<li><a href="spectrum_talk.html">Spectrum Talk</a></li>
 												</ul>
 											</li>
@@ -117,9 +121,10 @@
 										<li class="menu-item"><a href="gallery.html">Gallery</a></li>
 										<li class="menu-item"><a href="#">Calendar</a></li>
 										<!--NEWS UPDATE-->
-										<li class="menu-item-has-children"><a href="#">News<sup><span class="badge badge-notify">1</span></sup></a>
-											<ul class="sub-menu" style="display:flex;width:500px">
-												<li><p style="color:red">📌 NO NEWS UPDATES</p></li>
+										<li class="menu-item-has-children"><a href="#">News<sup><span class="badge badge-notify"></span></sup></a>
+											<ul class="sub-menu sub-menu-news " id="scroll-bar">
+												<li><p style="color:red" id="news-updates">NO NEWS UPDATES</p></li>
+												<ul class="news-list"></ul>
 											</ul>
 										</li>
 										<!--NEWS UPDATE END-->
@@ -129,7 +134,7 @@
 						<!-- Extra menu-->
 						<div class="extra-nav">
 							<ul>
-								<li><a class="open-offcanvas" href="#"><span>📢NEWS</span><span class="fa fa-bars"></span></a></li>
+								<li><a class="open-offcanvas" href="#"><span></span>Menu<span class="fa fa-bars"></span></a></li>
 							</ul>
 						</div>
 						<!-- Mobile menu-->
@@ -247,23 +252,11 @@
 					<!-- Text widget-->
 					<aside class="widget widget_text">
 						<div class="textwidget">
-							<a href="https://docs.google.com/forms/d/e/1FAIpQLSfJl7wPfAut2Cbc6blCJuoEfDhj9dQZMWyETPrC8y-hHA9SGw/viewform"><p class="text-center"><img src="assets/images/offcanvas.jpg" alt=""></p></a>
+							<a href="#"><p class="text-center"><img src="assets/images/offcanvas.jpg" alt=""></p></a>
 						</div>
 					</aside>
 					<!-- Navmenu widget-->
-					<aside class="widget widget_nav_menu">
-						<ul class="menu">
-							<li class="menu-item"><a href="index.html">Home</a></li>
-							<li class="menu-item"><a href="about.html">About Us</a></li>
-							<li class="menu-item"><a href="events.html">Events</a></li>
-							<li class="menu-item"><a href="gallery.html">Gallery</a></li>	
-							<li class="menu-item"><a href="execom20.html">Execom</a></li>
-							<li class="menu-item"><a href="workshops.html">Workshops</a></li>
-							<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhd75STfbDpQpYRbIZ7yPfxDEGoD6plfw_dg18m-SaD_0KVw/viewform">Request a Workshop</a></li>
-							<li class="menu-item"><a href="calendar.html">Event Calendar</a></li>
-							<li class="menu-item"><a href="member.html">Become a Member</a></li>
-						</ul>
-					</aside>
+				
 					<ul class="social-icons">
 						<li><a href="https://www.facebook.com/ieeeajcesb/"><i class="fa fa-facebook"></i></a></li>
 						<li><a href="mailto:ieeeajcesb@gmail.com"><i class="fa fa-google-plus"></i></a></li>

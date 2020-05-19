@@ -26,6 +26,8 @@
 		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/social_btns.css">
 	<link rel="stylesheet" href="assets/css/badge.css">
+	<!-- Basic Css -->
+	<link rel="stylesheet" href="assets/css/basics.css">
 	<script>
 		var host = "ieeeajce.org";
 		if ((host == window.location.host) && (window.location.protocol != "https:"))
@@ -51,7 +53,7 @@
 						<div class="inner-nav">
 							<ul>
 								<!-- Home-->
-								<li class="menu-item-has-children menu-item-has-mega-menu"><a href="#"
+								<li><a href="#"
 										style="color:royalblue">Home</a>
 
 
@@ -124,11 +126,9 @@
 							<!--NEWS UPDATE-->
 							<li class="menu-item-has-children"><a href="#">News<sup><span
 											class="badge badge-notify">0</span></sup></a>
-								<ul class="sub-menu" style="display:flex;width:500px">
-									<li>
-										<p style="color:red">📌 NO NEWS UPDATES</p>
-									</li>
-								</ul>
+							<ul class="sub-menu sub-menu-news " id="scroll-bar">
+							<li><p style="color:red" id="news-updates">NO NEWS UPDATES</p></li>
+							<ul class="news-list"></ul>
 							</li>
 							<!--NEWS UPDATE END-->
 						</div>
@@ -137,7 +137,7 @@
 				<!-- Extra menu-->
 				<div class="extra-nav">
 					<ul>
-						<li><a class="open-offcanvas" href="#"><span>📢NEWS</span><span class="fa fa-bars"></span></a>
+						<li><a class="open-offcanvas" href="#"><span>Menu</span><span class="fa fa-bars"></span></a>
 						</li>
 					</ul>
 				</div>
@@ -510,7 +510,7 @@
 							<div class="owl-carousel tms-carousel"
 								data-carousel-options="{&quot;pagination&quot;:true, &quot;autoPlay&quot;: &quot;5000&quot;}">
 					
-								<div class="testimonials-card">
+								<div class="testimonials-card computer-Society"> 
 									<div class="testimonials-card-photo"><img
 											src="assets/images/avatar/2020/Socities/computer-Society/1.jpg" alt="">
 									</div>
@@ -522,7 +522,7 @@
 										<p>Faculty Advisor</p>
 									</div>
 								</div>
-								<div class="testimonials-card">
+								<div class="testimonials-card computer-Society">
 									<div class="testimonials-card-photo"><img
 											src="assets/images/avatar/2020/Socities/computer-Society/2.jpg" alt="">
 									</div>
@@ -534,7 +534,7 @@
 										<p>Chair</p>
 									</div>
 								</div>
-								<div class="testimonials-card">
+								<div class="testimonials-card computer-Society">
 									<div class="testimonials-card-photo"><img
 											src="assets/images/avatar/2020/Socities/computer-Society/3.jpg" alt="">
 									</div>
@@ -546,7 +546,7 @@
 										<p>Vice Chair</p>
 									</div>
 								</div>
-								<div class="testimonials-card">
+								<div class="testimonials-card computer-Society">
 									<div class="testimonials-card-photo"><img
 											src="assets/images/avatar/2020/Socities/computer-Society/4.jpeg" alt="">
 									</div>
@@ -558,7 +558,7 @@
 										<p>Secretary</p>
 									</div>
 								</div>
-								<div class="testimonials-card">
+								<div class="testimonials-card computer-Society">
 									<div class="testimonials-card-photo"><img
 											src="assets/images/avatar/2020/Socities/computer-Society/5.JPG" alt="">
 									</div>
@@ -570,7 +570,7 @@
 										<p>Technical Coordinator</p>
 									</div>
 								</div>
-								<div class="testimonials-card">
+								<div class="testimonials-card computer-Society">
 									<div class="testimonials-card-photo"><img
 											src="assets/images/avatar/2020/Socities/computer-Society/6.jpeg" alt="">
 									</div>
@@ -602,7 +602,7 @@
 							<div class="owl-carousel tms-carousel"
 								data-carousel-options="{&quot;pagination&quot;:true, &quot;autoPlay&quot;: &quot;5000&quot;}">
 					
-								<div class="testimonials-card">
+								<div class="testimonials-card ias-society">
 									<div class="testimonials-card-photo"><img src="assets/images/avatar/2020/Socities/IAS/2.jpg" alt="">
 									</div>
 									<div class="testimonials-card-content">
@@ -613,7 +613,7 @@
 										<p>Faculty Advisor</p>
 									</div>
 								</div>
-								<div class="testimonials-card">
+								<div class="testimonials-card ias-society">
 									<div class="testimonials-card-photo"><img src="assets/images/avatar/2020/Socities/IAS/3.jpg"
 											alt="">
 									</div>
@@ -625,7 +625,7 @@
 										<p>Chair</p>
 									</div>
 								</div>
-								<div class="testimonials-card">
+								<div class="testimonials-card ias-society">
 									<div class="testimonials-card-photo"><img
 											src="assets/images/avatar/2020/Socities/IAS/4.jpg" alt="">
 									</div>
@@ -637,7 +637,7 @@
 										<p>Vice Chair</p>
 									</div>
 								</div>
-								<div class="testimonials-card">
+								<div class="testimonials-card ias-society">
 									<div class="testimonials-card-photo"><img
 											src="assets/images/avatar/2020/Socities/IAS/5.jpeg" alt="">
 									</div>
@@ -650,7 +650,7 @@
 									</div>
 								</div>
 					
-								<div class="testimonials-card">
+								<div class="testimonials-card ias-society">
 									<div class="testimonials-card-photo"><img src="assets/images/avatar/2020/Socities/IAS/6.jpeg"
 											alt="">
 									</div>
@@ -788,7 +788,7 @@
 				<aside class="widget widget_text">
 					<div class="textwidget">
 						<a
-							href="https://docs.google.com/forms/d/e/1FAIpQLSfJl7wPfAut2Cbc6blCJuoEfDhj9dQZMWyETPrC8y-hHA9SGw/viewform">
+							href="#">
 							<p class="text-center"><img src="assets/images/offcanvas.jpg" alt=""></p>
 						</a>
 					</div>

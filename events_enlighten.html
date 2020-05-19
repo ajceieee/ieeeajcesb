@@ -24,6 +24,8 @@
 		<link href="assets/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/social_btns.css">
 		<link rel="stylesheet" href="assets/css/badge.css">
+		<!-- Basic Css -->
+		<link rel="stylesheet" href="assets/css/basics.css">
 		<script>
 				var host = "ieeeajce.org";
 				if ((host == window.location.host) && (window.location.protocol != "https:"))
@@ -76,7 +78,7 @@
 												<ul class="sub-menu">
 													<li class="menu-item-has-children"><a href="#">Workshops</a>
 														<ul class="sub-menu">
-															<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfJl7wPfAut2Cbc6blCJuoEfDhj9dQZMWyETPrC8y-hHA9SGw/viewform">Python Level 1</a></li>
+															<li><a href="#">Python Level 1</a></li>
 															<li><a href="workshops.html">Python Level 2</a></li>
 															<li><a href="workshops.html">Python level 3</a></li>
 														</ul>
@@ -93,8 +95,7 @@
 													<li><a href="talk_sky.html">Talk On "Beyond The Sky"</a></li>
 													<li><a href="meet2.html">Execom Meeting 2</a></li>
 													<li><a href="quiz.html">Science Week Quiz</a></li>
-													<li><a href="talk_engineer.html">Talk on "Engineering and Women"</a></li>
-													<li><a href="WIE_week.html">WIE week - Elaboration on computer hardware</a></li>
+	<li><a href="talk_engineer.html">Talk on "Engineering and Women"</a></li>
 													<li><a href="spectrum_talk.html">Spectrum Talk</a></li>
 												</ul>
 											</li>
@@ -120,9 +121,11 @@
 										<li class="menu-item"><a href="calendar.html">Calendar</a></li>
 										<!--NEWS UPDATE-->
 										<li class="menu-item-has-children"><a href="#">News<sup><span class="badge badge-notify">1</span></sup></a>
-											<ul class="sub-menu" style="display:flex;width:500px">
-												<li><p style="color:red">📌 NO NEWS UPDATES</p></li>
+											<ul class="sub-menu sub-menu-news " id="scroll-bar">
+												<li><p style="color:red" id="news-updates">NO NEWS UPDATES</p></li>
+												<ul class="news-list"></ul>
 											</ul>
+
 										</li>
 										<!--NEWS UPDATE END-->
 								</div>
@@ -309,7 +312,7 @@ process and everything else relevant for a school student.</p>
 					<!-- Text widget-->
 					<aside class="widget widget_text">
 						<div class="textwidget">
-							<a href="https://docs.google.com/forms/d/e/1FAIpQLSfJl7wPfAut2Cbc6blCJuoEfDhj9dQZMWyETPrC8y-hHA9SGw/viewform"><p class="text-center"><img src="assets/images/offcanvas.jpg" alt=""></p></a>
+							<a href="#"><p class="text-center"><img src="assets/images/offcanvas.jpg" alt=""></p></a>
 						</div>
 					</aside>					
 					<ul class="social-icons">
