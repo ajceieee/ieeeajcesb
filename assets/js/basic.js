@@ -12,6 +12,8 @@ $(document).ready(function () {
 
   // News Updates
   let badge = 0;
+  const newsUpdates = false;
+
   const UpdateNews = (newsUpdates) => {
     if (newsUpdates) {
       const newsList = {
@@ -38,31 +40,31 @@ $(document).ready(function () {
             title: "Webinar",
             description: "Invisibility Cloak",
             date: 21,
-            month: "May",
+            month: "July",
             year: 2020,
             time: "4:00 pm",
           },
           {
             title: "Webinar",
             description: "Introduction To Machine Learning",
-            date: 22,
-            month: "May",
+            date: 30,
+            month: "June",
             year: 2020,
             time: "6:00 pm",
           },
           {
             title: "Webinar",
             description: "Volunteering with IEEE",
-            date: 23,
-            month: "May",
+            date: 30,
+            month: "June",
             year: 2020,
             time: "6:00 pm",
           },
           {
             title: "Webinar",
             description: "Canva",
-            date: 24,
-            month: "May",
+            date: 30,
+            month: "July",
             year: 2020,
             time: "6:00 pm",
           },
@@ -110,17 +112,12 @@ $(document).ready(function () {
           );
         }
       });
+    } else {
+      badge = 0;
+      $(".badge-notify").text(`${badge}`);
+      $("#news-updates").text("No News Updates");
     }
   };
 
-  // If there is new update this as true else as false
-  const newsUpdates = true;
-
-  // Checks for if there is any newsupdates
-  if (newsUpdates) {
-    UpdateNews(newsUpdates);
-  } else {
-    $("#news-updates").text("No News Updates");
-    $(".badge-notify").text(`${badge}`);
-  }
+  UpdateNews(newsUpdates); // function call
 });
