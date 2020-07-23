@@ -1,14 +1,16 @@
 $(document).ready(function () {
   const date = new Date();
 
-  const Developer = {
+  const webMaster = {
     name: "Shan Shaji",
     year: date.getFullYear(),
   };
 
-  $(".copyright").text(
-    `©  ${Developer.year} IEEE SB AJCE. Maintained  by ${Developer.name}`
-  );
+  $(".copyright").text(` . Maintained  by ${webMaster.name}`);
+
+  $(".credits")
+    .html(`© ${webMaster.year} IEEE SB AJCE. Made with <span style="color:red">&#10084;</span> by <a target="_blank"
+								href="https://www.meacoppertech.com">Joyal Joseph @ Meacopper Technologies</a></span>`);
 
   // News Updates
   let badge = 0;
