@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
   const date = new Date();
 
   const webMaster = {
@@ -8,8 +9,9 @@ $(document).ready(function () {
 
   $(".copyright").text(` . Maintained  by ${webMaster.name}`);
 
-  $(".credits")
-    .html(`© ${webMaster.year} IEEE SB AJCE. Made with <span style="color:red">&#10084;</span> by <a target="_blank"
+  $(
+    ".credits"
+  ).html(`© ${webMaster.year} IEEE SB AJCE. Made with <span style="color:red">&#10084;</span> by <a target="_blank"
 								href="https://www.meacoppertech.com">Joyal Joseph @ Meacopper Technologies</a></span>`);
 
   // News Updates

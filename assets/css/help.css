@@ -1,0 +1,33 @@
+.minervacard {
+  margin: 50px auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px 2px rgba(189, 189, 189, 0.25),
+    -3px -3px 20px 2px rgba(194, 194, 194, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.minervacard .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  display: flex;
+  align-content: center;
+  height: 40px;
+}
+
+.minervacard .card_title p {
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+  font-family: Poppins;
+  margin-top: 50px;
+}
+
+.minervacard:hover {
+  transform: scale(0.9, 0.9);
+}
