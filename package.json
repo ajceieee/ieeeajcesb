@@ -1,0 +1,23 @@
+{
+  "name": "ieeeajcesb",
+  "version": "1.0.0",
+  "description": "IEEE AJCE SB Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joyaljoseph819/ieeeajcesb.git"
+  },
+  "author": "Webmaster IEEEAJCESB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joyaljoseph819/ieeeajcesb/issues"
+  },
+  "homepage": "https://github.com/joyaljoseph819/ieeeajcesb#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

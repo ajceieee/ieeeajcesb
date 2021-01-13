@@ -1,7 +1,6 @@
 $(document).ready(function () {
   $("#calendar").evoCalendar({
-    'eventDisplayDefault': false,
+    eventDisplayDefault: true,
+    theme: "Midnight Blue",
   });
-
-  
 });
