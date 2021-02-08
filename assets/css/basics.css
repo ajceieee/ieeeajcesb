@@ -1,120 +1,133 @@
 /* Css Styles */
 
+
 /* News Updates */
 
 .sub-menu-news {
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  max-height: 400px;
-  align-items: center;
-  font-weight: 900;
-  border-radius: 5px;
-  overflow-y: auto;
-  overflow-x: none;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    max-height: 400px;
+    align-items: center;
+    font-weight: 900;
+    border-radius: 5px;
+    overflow-y: auto;
+    overflow-x: none;
 }
+
 
 /* News List Items Style  */
 
 .card-news-list {
-  margin-top: 6px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-  max-width: 300px;
-  max-height: 200px;
-  font-family: poppins;
-
-  /* 5px rounded corners */
+    margin-top: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    max-width: 300px;
+    max-height: 200px;
+    font-family: poppins;
+    /* 5px rounded corners */
 }
 
 .card-news-list .card-title {
-  font-size: 24px;
-  font-weight: bold;
-  color: #7e7e7e;
+    font-size: 24px;
+    font-weight: bold;
+    color: #7e7e7e;
 }
 
 .card-news-list .card-content,
 .card-footer {
-  font-weight: 100;
+    font-weight: 100;
 }
 
 #sroll-bar::-webkit-scrollbar {
-  width: 10px;
-  background-color: #1b1d1f;
+    width: 10px;
+    background-color: #1b1d1f;
 }
 
 .testimonials-card {
-  border-radius: 10px;
+    border-radius: 10px;
 }
+
 .computer-Society {
-  background-color: #faa41a;
-  color: white;
+    background-color: #faa41a;
+    color: white;
 }
 
 .computer-Society .testimonials-card-author h4 {
-  color: white;
+    color: white;
 }
+
 .ias-society {
-  background-color: #048a47;
-  color: white;
+    background-color: #048a47;
+    color: white;
 }
+
 .ias-society .testimonials-card-author h4 {
-  color: white;
+    color: white;
+}
+
+.wie-society {
+    background-color: #5a1464;
+    color: white;
+}
+
+.wie-society .testimonials-card-author h4 {
+    color: white;
 }
 
 @media (max-width: 991) {
-  #scroll-bar::-webkit-scrollbar {
-    width: 10px;
-    background-color: #1b1d1f;
-  }
+    #scroll-bar::-webkit-scrollbar {
+        width: 10px;
+        background-color: #1b1d1f;
+    }
 }
+
 
 /* gallery card style */
 
 .minervacard {
-  margin: 50px auto;
-  width: 200px;
-  height: 200px;
-
-  border-radius: 10px;
-  box-shadow: 3px 3px 20px 2px rgba(186, 186, 186, 0.25),
-    -3px -3px 20px 2px rgba(154, 154, 154, 0.22);
-  cursor: pointer;
-  transition: 0.4s;
+    margin: 50px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px 2px rgba(186, 186, 186, 0.25), -3px -3px 20px 2px rgba(154, 154, 154, 0.22);
+    cursor: pointer;
+    transition: 0.4s;
 }
+
 .minervacard .card_image {
-  width: inherit;
-  height: inherit;
-  border-radius: 10px;
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
 }
 
 .minervacard .card_image img {
-  width: inherit;
-  height: inherit;
-  border-radius: inherit;
-  object-fit: cover;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    object-fit: cover;
 }
 
 .minervacard .card_title {
-  text-align: center;
-  border-radius: 0px 0px 40px 40px;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 10px;
-  margin-top: -60px;
-  height: 40px;
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: -60px;
+    height: 40px;
 }
 
 .minervacard .card_title p {
-  font-size: 20px;
-  color: white;
-  font-family: Poppins;
+    font-size: 20px;
+    color: white;
+    font-family: Poppins;
 }
 
 .minervacard:hover {
-  transform: scale(0.9, 0.9);
+    transform: scale(0.9, 0.9);
 }
