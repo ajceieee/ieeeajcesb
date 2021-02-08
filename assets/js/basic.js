@@ -1,9 +1,8 @@
 $(document).ready(function () {
-
   const date = new Date();
 
   const webMaster = {
-    name: "Shan Shaji",
+    name: "Tonal Mathew",
     year: date.getFullYear(),
   };
 
