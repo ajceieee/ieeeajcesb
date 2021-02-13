@@ -15,7 +15,7 @@ $(document).ready(function() {
 
     // News Updates
     let badge = 0;
-    const newsUpdates = false;
+    const newsUpdates = true;
 
     const UpdateNews = (newsUpdates) => {
         if (newsUpdates) {
@@ -67,6 +67,14 @@ $(document).ready(function() {
                         month: "July",
                         year: 2020,
                         time: "6:00 pm",
+                    },
+                    {
+                        title: "ExeCom Training",
+                        description: "Student Branch ExeCom Training for IEEE SB AJCE and IEEE SB GECK",
+                        date: 14,
+                        month: "February",
+                        year: 2021,
+                        time: "4:00 pm",
                     }
                 ],
             };
