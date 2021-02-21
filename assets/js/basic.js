@@ -75,6 +75,14 @@ $(document).ready(function() {
                         month: "February",
                         year: 2021,
                         time: "4:00 pm",
+                    },
+                    {
+                        title: "Scientastic",
+                        description: "Science Week Celebration 2021 (21st - 28th February)",
+                        date: 28,
+                        month: "February",
+                        year: 2021,
+                        time: "11:59 pm",
                     }
                 ],
             };
