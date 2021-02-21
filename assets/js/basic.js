@@ -79,7 +79,17 @@ $(document).ready(function() {
                     {
                         title: "Scientastic",
                         description: "Science Week Celebration 2021 (21st - 28th February)",
+                        link: null,
                         date: 28,
+                        month: "February",
+                        year: 2021,
+                        time: "11:59 pm",
+                    },
+                    {
+                        title: "Article Writing",
+                        description: "Share your article and win amazing cash prize and certificates❗ Last date for submission 👇",
+                        link: "https://bit.ly/AJCE_SCI_ARTICLEWRITING",
+                        date: 27,
                         month: "February",
                         year: 2021,
                         time: "11:59 pm",
@@ -125,9 +135,15 @@ $(document).ready(function() {
                     badge++;
                     $(".badge-notify").text(`${badge}`);
                     // will append the card for each news.
-                    $(".news-list").append(
-                        `<div class="card-news-list"><div class="card-title"><strong>${news.title}</strong></div><div class="card-content">${news.description}</div><div class="card-footer">${news.date}<sup>th</sup>${news.month} ${news.year} - ${news.time}</div></div>`
-                    );
+                    if (news.link) {
+                        $(".news-list").append(
+                            `<div class="card-news-list"><div class="card-title"><strong>${news.title}</strong></div><div class="card-content">${news.description}<a href="${news.link}"><small>(Register Here)</small></a></div><div class="card-footer">${news.date}<sup>th</sup>${news.month} ${news.year} - ${news.time}</div></div>`
+                        );
+                    } else {
+                        $(".news-list").append(
+                            `<div class="card-news-list"><div class="card-title"><strong>${news.title}</strong></div><div class="card-content">${news.description}</div><div class="card-footer">${news.date}<sup>th</sup>${news.month} ${news.year} - ${news.time}</div></div>`
+                        );
+                    }
                 }
             });
         } else {
