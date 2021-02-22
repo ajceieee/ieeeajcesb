@@ -93,6 +93,15 @@ $(document).ready(function() {
                         month: "February",
                         year: 2021,
                         time: "11:59 pm",
+                    },
+                    {
+                        title: "Webinar",
+                        description: "Science in everyday life : From Kitchen to Cryptography 👨‍💻",
+                        link: "https://bit.ly/science_week-webinar",
+                        date: 27,
+                        month: "February",
+                        year: 2021,
+                        time: "10:00 am",
                     }
                 ],
             };
@@ -137,7 +146,7 @@ $(document).ready(function() {
                     // will append the card for each news.
                     if (news.link) {
                         $(".news-list").append(
-                            `<div class="card-news-list"><div class="card-title"><strong>${news.title}</strong></div><div class="card-content">${news.description}<a href="${news.link}"><small>(Register Here)</small></a></div><div class="card-footer">${news.date}<sup>th</sup>${news.month} ${news.year} - ${news.time}</div></div>`
+                            `<div class="card-news-list"><div class="card-title"><strong>${news.title}</strong></div><div class="card-content">${news.description}<a href="${news.link}"><small>( Register )</small></a></div><div class="card-footer">${news.date}<sup>th</sup>${news.month} ${news.year} - ${news.time}</div></div>`
                         );
                     } else {
                         $(".news-list").append(
