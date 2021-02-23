@@ -110,7 +110,7 @@ $(document).ready(function() {
                         date: 27,
                         month: "February",
                         year: 2021,
-                        time: "10:00 am",
+                        time: "11:59 pm",
                     }
                 ],
             };
