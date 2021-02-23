@@ -128,7 +128,6 @@ $(document).ready(function() {
             let year = todaysDate.getFullYear();
 
 
-
             // number of news
             badge = 0;
             // Updates the element with text new Updates
@@ -160,6 +159,7 @@ $(document).ready(function() {
             $(".badge-notify").text(`${badge}`);
             $("#news-updates").text("No News Updates");
         }
+
     };
 
     UpdateNews(newsUpdates); // function call
