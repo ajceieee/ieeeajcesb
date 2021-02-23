@@ -69,7 +69,7 @@ function newsData() {
             name: "Article Writing",
             type: "event",
             description: "Share your article and win amazing cash prize and certificates❗ Last date for submission February-27",
-            date: "February/27/2021",
+            date: "February/21/2021",
 
         },
         {
@@ -78,6 +78,14 @@ function newsData() {
             type: "webinar",
             description: "Science in everyday life : From Kitchen to Cryptography 👨‍💻",
             date: "February/27/2021",
+
+        },
+        {
+            id: "11",
+            name: "JAM",
+            type: "Competition",
+            description: "JAM comprtition on the topic : Science in everyday life 🧪  Last date for submission February-27",
+            date: "February/23/2021",
 
         }
     ];

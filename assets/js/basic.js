@@ -102,6 +102,15 @@ $(document).ready(function() {
                         month: "February",
                         year: 2021,
                         time: "10:00 am",
+                    },
+                    {
+                        title: "Just a minute",
+                        description: "JAM comprtition on the topic : Science in everyday life 🧪",
+                        link: "https://bit.ly/AJCE_SCI_JAM",
+                        date: 27,
+                        month: "February",
+                        year: 2021,
+                        time: "10:00 am",
                     }
                 ],
             };
