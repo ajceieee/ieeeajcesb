@@ -92,7 +92,7 @@ function newsData() {
             id: "12",
             name: "Poster Designing",
             type: "Competition",
-            description: "Share your poster and win amazing cash prizes and certificates 🎉  Last date for submission February-27",
+            description: "Poster Designing Competition, Topic: Conservation of electricty (school level), 2021 International Year of Sustainable Development (Undergraduate level). Share your poster and win amazing cash prizes and certificates 🎉. Last date for submission February-27",
             date: "February/23/2021",
 
         }
