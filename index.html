@@ -329,7 +329,7 @@
                         <div class="col-md-8 m-auto">
                             <div class="module-title text-center">
                                 <h2>Events</h2>
-                                <!-- <p class="font-serif">Executive Commitee members of this year</p> -->
+                                <p class="font-serif">Live Events</p>
                             </div>
                         </div>
                     </div>
@@ -342,31 +342,31 @@
 
                         </div>
                         <div class="col-md-2 col-sm-4 col-md-4 col-lg-4 col-xs-6 eventThumb">
-                            <a id="firstlink" class="venobox vbox-item" data-gall="gall1" data-title="scientastic" style="width: 50%;" href="./assets/images/events/scientastic/article-writing.jpg">
+                            <a id="firstlink" class="venobox vbox-item" data-gall="gall1" data-title="Article Writing" style="width: 50%;" href="./assets/images/events/scientastic/article-writing.jpg">
                                 <img src="./assets/images/events/scientastic/article-writing.jpg" class="img-shadow" alt="image alt" />
                             </a>
 
                         </div>
                         <div class="col-md-2 col-sm-4 col-md-4 col-lg-4 col-xs-6 eventThumb">
-                            <a id="firstlink" class="venobox vbox-item" data-gall="gall1" data-title="scientastic" style="width: 50%;" href="./assets/images/events/scientastic/just-a-minute.jpg">
+                            <a id="firstlink" class="venobox vbox-item" data-gall="gall1" data-title="Just a minute" style="width: 50%;" href="./assets/images/events/scientastic/just-a-minute.jpg">
                                 <img src="./assets/images/events/scientastic/just-a-minute.jpg" class="img-shadow" alt="image alt" />
                             </a>
 
                         </div>
                         <div class="col-md-2 col-sm-4 col-md-4 col-lg-4 col-xs-6 eventThumb">
-                            <a id="firstlink" class="venobox vbox-item" data-gall="gall1" data-title="scientastic" style="width: 50%;" href="./assets/images/events/scientastic/poster-design.jpg">
+                            <a id="firstlink" class="venobox vbox-item" data-gall="gall1" data-title="Poster Designing" style="width: 50%;" href="./assets/images/events/scientastic/poster-design.jpg">
                                 <img src="./assets/images/events/scientastic/poster-design.jpg" class="img-shadow" alt="image alt" />
                             </a>
 
                         </div>
                         <div class="col-md-2 col-sm-4 col-md-4 col-lg-4 col-xs-6 eventThumb">
-                            <a id="firstlink" class="venobox vbox-item" data-gall="gall1" data-title="scientastic" style="width: 50%;" href="./assets/images/events/scientastic/science-quiz.jpg">
+                            <a id="firstlink" class="venobox vbox-item" data-gall="gall1" data-title="Science Quiz" style="width: 50%;" href="./assets/images/events/scientastic/science-quiz.jpg">
                                 <img src="./assets/images/events/scientastic/science-quiz.jpg" class="img-shadow" alt="image alt" />
                             </a>
 
                         </div>
                         <div class="col-md-2 col-sm-4 col-md-4 col-lg-4 col-xs-6 eventThumb">
-                            <a id="firstlink" class="venobox vbox-item" data-gall="gall1" data-title="scientastic" style="width: 50%;" href="./assets/images/events/scientastic/webinar.jpg">
+                            <a id="firstlink" class="venobox vbox-item" data-gall="gall1" data-title="webinar" style="width: 50%;" href="./assets/images/events/scientastic/webinar.jpg">
                                 <img src="./assets/images/events/scientastic/webinar.jpg" class="img-shadow" alt="image alt" />
                             </a>
 
@@ -915,6 +915,16 @@
     <script>
         $(document).ready(function() {
             $('.venobox').venobox();
+        });
+        $('.venobox').venobox({
+            framewidth: '50%', // default: ''
+            frameheight: '50%', // default: ''
+            border: '10px', // default: '0'
+            numeratio: true, // default: false
+            infinigall: true, // default: false
+            spinner: 'wave',
+            spinColor: '#d2d2d2',
+            titleattr: 'data-title'
         });
     </script>
 
