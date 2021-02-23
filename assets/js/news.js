@@ -87,6 +87,14 @@ function newsData() {
             description: "JAM comprtition on the topic : Science in everyday life 🧪  Last date for submission February-27",
             date: "February/23/2021",
 
+        },
+        {
+            id: "12",
+            name: "Poster Designing",
+            type: "Competition",
+            description: "Share your poster and win amazing cash prizes and certificates 🎉  Last date for submission February-27",
+            date: "February/23/2021",
+
         }
     ];
 

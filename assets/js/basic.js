@@ -111,6 +111,15 @@ $(document).ready(function() {
                         month: "February",
                         year: 2021,
                         time: "11:59 pm",
+                    },
+                    {
+                        title: "Poster Designing",
+                        description: "Share your poster and win amazing cash prizes and certificates 🎉",
+                        link: "https://bit.ly/AJCE_SCI_POSTERDESIGNING",
+                        date: 27,
+                        month: "February",
+                        year: 2021,
+                        time: "11:59 pm",
                     }
                 ],
             };
