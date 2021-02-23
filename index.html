@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="assets/css/badge.css">
     <!-- Basic Css -->
     <link rel="stylesheet" href="assets/css/basics.css">
+    <link rel="stylesheet" href="./assets/js/venobox/venobox.css" type="text/css" media="screen" />
+
     <script>
         var host = "ieeeajce.org";
         if ((host == window.location.host) && (window.location.protocol != "https:"))
@@ -321,6 +323,58 @@
                 </div>
             </section>
             <!-- Counters end-->
+            <section class="module module-gray" id=events>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 m-auto">
+                            <div class="module-title text-center">
+                                <h2>Events</h2>
+                                <!-- <p class="font-serif">Executive Commitee members of this year</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-2 col-sm-4 col-md-4 col-lg-4 col-xs-6 eventThumb">
+                            <a id="firstlink" class="venobox vbox-item" data-gall="gall1" data-title="scientastic" style="width: 50%;" href="./assets/images/events/scientastic/scientastic.jpg">
+                                <img src="./assets/images/events/scientastic/scientastic.jpg" class="img-shadow" alt="image alt" />
+                            </a>
+
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-md-4 col-lg-4 col-xs-6 eventThumb">
+                            <a id="firstlink" class="venobox vbox-item" data-gall="gall1" data-title="scientastic" style="width: 50%;" href="./assets/images/events/scientastic/article-writing.jpg">
+                                <img src="./assets/images/events/scientastic/article-writing.jpg" class="img-shadow" alt="image alt" />
+                            </a>
+
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-md-4 col-lg-4 col-xs-6 eventThumb">
+                            <a id="firstlink" class="venobox vbox-item" data-gall="gall1" data-title="scientastic" style="width: 50%;" href="./assets/images/events/scientastic/just-a-minute.jpg">
+                                <img src="./assets/images/events/scientastic/just-a-minute.jpg" class="img-shadow" alt="image alt" />
+                            </a>
+
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-md-4 col-lg-4 col-xs-6 eventThumb">
+                            <a id="firstlink" class="venobox vbox-item" data-gall="gall1" data-title="scientastic" style="width: 50%;" href="./assets/images/events/scientastic/poster-design.jpg">
+                                <img src="./assets/images/events/scientastic/poster-design.jpg" class="img-shadow" alt="image alt" />
+                            </a>
+
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-md-4 col-lg-4 col-xs-6 eventThumb">
+                            <a id="firstlink" class="venobox vbox-item" data-gall="gall1" data-title="scientastic" style="width: 50%;" href="./assets/images/events/scientastic/science-quiz.jpg">
+                                <img src="./assets/images/events/scientastic/science-quiz.jpg" class="img-shadow" alt="image alt" />
+                            </a>
+
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-md-4 col-lg-4 col-xs-6 eventThumb">
+                            <a id="firstlink" class="venobox vbox-item" data-gall="gall1" data-title="scientastic" style="width: 50%;" href="./assets/images/events/scientastic/webinar.jpg">
+                                <img src="./assets/images/events/scientastic/webinar.jpg" class="img-shadow" alt="image alt" />
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
 
             <!-- Testimonials-->
             <section class="module module-gray" id="execom">
@@ -851,11 +905,18 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA0rANX07hh6ASNKdBr4mZH0KZSqbHYc3Q"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="./assets/js/venobox/venobox.min.js"></script>
     <!-- basic js file with jquery framework -->
     <script src="assets/js/basic.js"></script>
     <script src="assets/js/plugins.min.js"></script>
     <script src="assets/js/charts.js"></script>
     <script src="assets/js/custom.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.venobox').venobox();
+        });
+    </script>
 
 
 </body>
