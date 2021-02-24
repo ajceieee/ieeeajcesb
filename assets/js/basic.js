@@ -114,12 +114,21 @@ $(document).ready(function() {
                     },
                     {
                         title: "Poster Designing",
-                        description: "Share your poster and win amazing cash prizes and certificates 🎉",
+                        description: "Share your poster and win amazing cash prize and certificates🎉",
                         link: "https://bit.ly/AJCE_SCI_POSTERDESIGNING",
                         date: 27,
                         month: "February",
                         year: 2021,
                         time: "11:59 pm",
+                    },
+                    {
+                        title: "Science Quiz",
+                        description: "Test your knowledge of scientifc facts and applications by participating in our fun quiz ✨",
+                        link: "https://bit.ly/AJCE_SCI_QUIZ",
+                        date: 27,
+                        month: "February",
+                        year: 2021,
+                        time: "6:00 pm",
                     }
                 ],
             };

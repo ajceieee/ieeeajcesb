@@ -95,6 +95,14 @@ function newsData() {
             description: "Poster Designing Competition, Topic: Conservation of electricty (school level), 2021 International Year of Sustainable Development (Undergraduate level). Share your poster and win amazing cash prizes and certificates 🎉. Last date for submission February-27",
             date: "February/23/2021",
 
+        },
+        {
+            id: "13",
+            name: "Science Quiz",
+            type: "Competition",
+            description: "Test your knowledge of scientifc facts and applications by participating in our fun quiz ✨",
+            date: "February/27/2021",
+
         }
     ];
 
