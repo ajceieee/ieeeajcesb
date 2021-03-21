@@ -166,8 +166,13 @@
 }
 
 @media (max-width: 768px) {
-    .navs {
+    /* .navs {
         display: none;
+    } */
+    .navbar-dark a {
+        font-size: x-small;
+        float: left;
+        padding-top: 15px !important;
     }
 }
 
