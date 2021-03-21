@@ -165,5 +165,11 @@
     text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+    .navs {
+        display: none;
+    }
+}
+
 
 /* home navbar end */
