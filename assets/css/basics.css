@@ -143,3 +143,27 @@
 .img-shadow:hover {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+/* home navbar start */
+
+.navs {
+    max-height: 40px;
+    font-family: poppins;
+}
+
+.navbar-dark {
+    background-color: #1b1d1f !important;
+}
+
+.navbar-dark a {
+    font-size: small;
+    padding-top: 10px !important;
+}
+
+.navbar-dark a:hover {
+    text-decoration: underline;
+}
+
+
+/* home navbar end */
