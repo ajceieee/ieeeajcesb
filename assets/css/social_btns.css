@@ -171,10 +171,11 @@ body {
   }
   }
 
+
   @media screen and (max-width: 960px){
     .social_wrapper {
       width: 320px;
-      padding: 50px 1px 0px 1px;
+      padding: 85px 1px 0px 1px;
       
     }
     .social_wrapper ul li {
