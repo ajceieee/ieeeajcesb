@@ -99,16 +99,6 @@ $(document).ready(function () {
         "A webinar on designing with Canva was conducted on Saturday, 24th May. The talk included various   characteristics of designing, introduction to Canva, how to start, etc. The speaker also showed many examples of posters, certificates, etc which can be created and different options in Canva. The  registration count was 180 and largely composed of students. We received many feedbacks on the session and everyone agreed that the session was very useful.",
     },
     {
-      webinarTopic: "Topic: Designing with Canva",
-      speaker: "Madhu Krishnan",
-      webinarDate: "24th May 2020",
-      venue: "Online",
-      time: "6:00 - 7:30pm",
-      participants: 127,
-      report:
-        "A webinar on designing with Canva was conducted on Saturday, 24th May. The talk included various   characteristics of designing, introduction to Canva, how to start, etc. The speaker also showed many examples of posters, certificates, etc which can be created and different options in Canva. The  registration count was 180 and largely composed of students. We received many feedbacks on the session and everyone agreed that the session was very useful.",
-    },
-    {
       webinarTopic:
         "Topic: Open Source Programming and Design of Custom Library for Arduino IDE.",
       speaker: "Abubeker K M",
