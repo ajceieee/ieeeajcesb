@@ -241,13 +241,13 @@
     box-shadow: none;
     font-family: Poppins, Arial, serif;
     border-bottom: 0px solid rgba(0, 0, 0, 0) !important;
-}
+}*/
 
 .header-sub-menu-dark .inner-nav .sub-menu li.mega-menu-col>a,
 .header.header-light .extra-nav>ul>li>a,
 .header.header-light .inner-brand,
 .header.header-light .inner-nav>ul>li>a {
-    color: #fff !important;
+    /* color: #fff !important; */
     text-decoration: none !important;
     padding: 0 20px 0 20px !important;
 }
@@ -256,10 +256,10 @@
 .header .in#ffffff>ul>li>a,
 .header.header-light.header-small .extra-nav>ul>li>a,
 .header.header-light.header-small .inner-nav>ul>li>a {
-    color: #ffffff !important;
+    /* color: #ffffff !important; */
     text-decoration: none !important;
     padding: 0 20px 0 20px !important;
-} */
+}
 
 
 /* force-remove-shadow-css end */
