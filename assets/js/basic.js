@@ -11,7 +11,7 @@ $(document).ready(function() {
     $(
         ".credits"
     ).html(`© ${webMaster.year} IEEE SB AJCE. Made with <span style="color:red">&#10084;</span> by <a target="_blank"
-								href="https://www.meacoppertech.com">Joyal Joseph @ Meacopper Technologies</a></span>`);
+								>Joyal Joseph</a></span>`);
 
     // News Updates
     let badge = 0;

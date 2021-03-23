@@ -221,4 +221,45 @@
 }
 
 
+/* 
+.header.header-shadow {
+    box-shadow: 0 0 0 rgb(0 0 0) !important;
+    height: 61px;
+}
+
+.header {
+    background: 0 0;
+    position: fixed;
+    z-index: 1040;
+    height: 0px !important;
+    padding: 0 0px;
+    left: 0;
+    -webkit-transition: none !important;
+    transition: 0 !important;
+    transition: none !important;
+    transition: none !important;
+    box-shadow: none;
+    font-family: Poppins, Arial, serif;
+    border-bottom: 0px solid rgba(0, 0, 0, 0) !important;
+}
+
+.header-sub-menu-dark .inner-nav .sub-menu li.mega-menu-col>a,
+.header.header-light .extra-nav>ul>li>a,
+.header.header-light .inner-brand,
+.header.header-light .inner-nav>ul>li>a {
+    color: #fff !important;
+    text-decoration: none !important;
+    padding: 0 20px 0 20px !important;
+}
+
+.header .extra-nav>ul>li>a,
+.header .in#ffffff>ul>li>a,
+.header.header-light.header-small .extra-nav>ul>li>a,
+.header.header-light.header-small .inner-nav>ul>li>a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+    padding: 0 20px 0 20px !important;
+} */
+
+
 /* force-remove-shadow-css end */
