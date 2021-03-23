@@ -261,5 +261,13 @@
     padding: 0 20px 0 20px !important;
 }
 
+.header .extra-nav>ul>li>a,
+.header .inner-nav>ul>li>a,
+.header.header-light.header-small .extra-nav>ul>li>a,
+.header.header-light.header-small .inner-nav>ul>li>a {
+    color: #303133;
+    padding: 0 20px 0 20px !important;
+}
+
 
 /* force-remove-shadow-css end */
