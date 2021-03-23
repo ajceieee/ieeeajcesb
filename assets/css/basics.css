@@ -3,18 +3,19 @@
 
 /* News Updates */
 
-.logo{
+.logo {
     width: 100%;
     height: 50px;
-    background-color: rgba(0,0,0,.1);  
-    position: fixed; 
+    background-color: rgba(0, 0, 0, 0.1);
+    position: fixed;
 }
-.logo .first{
+
+.logo .first {
     margin-left: 50px;
     margin-top: 8px;
 }
-.logo .second{
 
+.logo .second {
     margin-left: 750px;
 }
 
@@ -167,6 +168,23 @@
     font-family: poppins;
 }
 
+.navs-2 {
+    max-height: 70px;
+    font-family: poppins;
+}
+
+.ieee-logo-nav {
+    float: right !important;
+}
+
+.nav-bg-color {
+    background-color: #ffffff;
+}
+
+.ieee-logo-nav-li {
+    float: right !important;
+}
+
 .navbar-dark {
     background-color: #1b1d1f !important;
 }
@@ -193,3 +211,14 @@
 
 
 /* home navbar end */
+
+
+/* force-remove-shadow-css */
+
+.header.header-shadow {
+    box-shadow: 0 0 0 rgb(0 0 0) !important;
+    height: 61px;
+}
+
+
+/* force-remove-shadow-css end */
