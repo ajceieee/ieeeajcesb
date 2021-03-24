@@ -244,7 +244,17 @@
 }*/
 
 .header {
-    height: 40px !important;
+    height: 30px !important;
+}
+
+.extra-nav>ul>li>a::after,
+.extra-nav>ul>li>a::before,
+.inner-nav>ul>li>a::after,
+.inner-nav>ul>li>a::before {
+    content: "";
+    display: block;
+    /* height: 50%; */
+    height: 0 !important;
 }
 
 .header-sub-menu-dark .inner-nav .sub-menu li.mega-menu-col>a,
@@ -253,8 +263,20 @@
 .header.header-light .inner-nav>ul>li>a {
     /* color: #fff !important; */
     text-decoration: none !important;
-    padding: 0 20px 0 20px !important;
+    padding: 0 15px 0 15px !important;
 }
+
+
+/* .extra-nav>ul>li>a,
+.inner-nav>ul>li>a {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    line-height: 24px;
+    font-weight: 600;
+    font-size: 12px;
+    height: 100%;
+} */
 
 .header .extra-nav>ul>li>a,
 .header .in#ffffff>ul>li>a,
@@ -262,7 +284,7 @@
 .header.header-light.header-small .inner-nav>ul>li>a {
     /* color: #ffffff !important; */
     text-decoration: none !important;
-    padding: 0 20px 0 20px !important;
+    padding: 0 15px 0 15px !important;
 }
 
 .header .extra-nav>ul>li>a,
@@ -270,7 +292,33 @@
 .header.header-light.header-small .extra-nav>ul>li>a,
 .header.header-light.header-small .inner-nav>ul>li>a {
     color: #303133;
-    padding: 0 20px 0 20px !important;
+    padding: 0 15px 0 15px !important;
+}
+
+@media (min-width: 991px) and (max-width: 1135px) {
+    .header-sub-menu-dark .inner-nav .sub-menu li.mega-menu-col>a,
+    .header.header-light .extra-nav>ul>li>a,
+    .header.header-light .inner-brand,
+    .header.header-light .inner-nav>ul>li>a {
+        /* color: #fff !important; */
+        text-decoration: none !important;
+        padding: 0 5px 0 5px !important;
+    }
+    .header .extra-nav>ul>li>a,
+    .header .in#ffffff>ul>li>a,
+    .header.header-light.header-small .extra-nav>ul>li>a,
+    .header.header-light.header-small .inner-nav>ul>li>a {
+        /* color: #ffffff !important; */
+        text-decoration: none !important;
+        padding: 0 5px 0 5px !important;
+    }
+    .header .extra-nav>ul>li>a,
+    .header .inner-nav>ul>li>a,
+    .header.header-light.header-small .extra-nav>ul>li>a,
+    .header.header-light.header-small .inner-nav>ul>li>a {
+        color: #303133;
+        padding: 0 5px 0 5px !important;
+    }
 }
 
 
