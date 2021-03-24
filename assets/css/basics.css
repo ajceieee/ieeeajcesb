@@ -3,18 +3,19 @@
 
 /* News Updates */
 
-.logo{
+.logo {
     width: 100%;
     height: 50px;
-    background-color: rgba(0,0,0,.1);  
-    position: fixed; 
+    background-color: rgba(0, 0, 0, 0.1);
+    position: fixed;
 }
-.logo .first{
+
+.logo .first {
     margin-left: 50px;
     margin-top: 8px;
 }
-.logo .second{
 
+.logo .second {
     margin-left: 750px;
 }
 
@@ -163,8 +164,25 @@
 /* home navbar start */
 
 .navs {
-    max-height: 40px;
+    max-height: 30px;
     font-family: poppins;
+}
+
+.navs-2 {
+    max-height: 80px;
+    font-family: poppins;
+}
+
+.ieee-logo-nav {
+    float: right !important;
+}
+
+.nav-bg-color {
+    background-color: #ffffff;
+}
+
+.ieee-logo-nav-li {
+    float: right !important;
 }
 
 .navbar-dark {
@@ -180,6 +198,15 @@
     text-decoration: underline;
 }
 
+@media (max-width: 991px) {
+    /* .navs {
+        display: none;
+    } */
+    .navbar-dark a {
+        padding-top: 12px !important;
+    }
+}
+
 @media (max-width: 768px) {
     /* .navs {
         display: none;
@@ -192,4 +219,133 @@
 }
 
 
+/* .top-navs {
+    padding: 0;
+} */
+
+
 /* home navbar end */
+
+
+/* force-remove-shadow-css */
+
+.wrapper {
+    padding-top: 0px !important;
+}
+
+.header.header-shadow {
+    box-shadow: 0 0 0 rgb(0 0 0) !important;
+    height: 61px;
+}
+
+
+/* 
+.header.header-shadow {
+    box-shadow: 0 0 0 rgb(0 0 0) !important;
+    height: 61px;
+}
+
+.header {
+    background: 0 0;
+    position: fixed;
+    z-index: 1040;
+    height: 0px !important;
+    padding: 0 0px;
+    left: 0;
+    -webkit-transition: none !important;
+    transition: 0 !important;
+    transition: none !important;
+    transition: none !important;
+    box-shadow: none;
+    font-family: Poppins, Arial, serif;
+    border-bottom: 0px solid rgba(0, 0, 0, 0) !important;
+}*/
+
+.header {
+    height: 30px !important;
+    background-color: #016699;
+}
+
+.header.header-small {
+    background: #016699 !important;
+    border-bottom: 1px solid #016699 !important;
+}
+
+.extra-nav>ul>li>a::after,
+.extra-nav>ul>li>a::before,
+.inner-nav>ul>li>a::after,
+.inner-nav>ul>li>a::before {
+    content: "";
+    display: block;
+    /* height: 50%; */
+    height: 0 !important;
+}
+
+.header-sub-menu-dark .inner-nav .sub-menu li.mega-menu-col>a,
+.header.header-light .extra-nav>ul>li>a,
+.header.header-light .inner-brand,
+.header.header-light .inner-nav>ul>li>a {
+    /* color: #fff !important; */
+    text-decoration: none !important;
+    padding: 0 15px 0 15px !important;
+}
+
+
+/* .extra-nav>ul>li>a,
+.inner-nav>ul>li>a {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    line-height: 24px;
+    font-weight: 600;
+    font-size: 12px;
+    height: 100%;
+} */
+
+.header .extra-nav>ul>li>a,
+.header .in#ffffff>ul>li>a,
+.header.header-light.header-small .extra-nav>ul>li>a,
+.header.header-light.header-small .inner-nav>ul>li>a {
+    /* color: #ffffff !important; */
+    text-decoration: none !important;
+    padding: 0 15px 0 15px !important;
+}
+
+.header .extra-nav>ul>li>a,
+.header .inner-nav>ul>li>a,
+.header.header-light.header-small .extra-nav>ul>li>a,
+.header.header-light.header-small .inner-nav>ul>li>a {
+    /* color: #303133; */
+    color: #fff;
+    padding: 0 15px 0 15px !important;
+}
+
+@media (min-width: 991px) and (max-width: 1135px) {
+    .header-sub-menu-dark .inner-nav .sub-menu li.mega-menu-col>a,
+    .header.header-light .extra-nav>ul>li>a,
+    .header.header-light .inner-brand,
+    .header.header-light .inner-nav>ul>li>a {
+        /* color: #fff !important; */
+        text-decoration: none !important;
+        padding: 0 5px 0 5px !important;
+    }
+    .header .extra-nav>ul>li>a,
+    .header .in#ffffff>ul>li>a,
+    .header.header-light.header-small .extra-nav>ul>li>a,
+    .header.header-light.header-small .inner-nav>ul>li>a {
+        /* color: #ffffff !important; */
+        text-decoration: none !important;
+        padding: 0 5px 0 5px !important;
+    }
+    .header .extra-nav>ul>li>a,
+    .header .inner-nav>ul>li>a,
+    .header.header-light.header-small .extra-nav>ul>li>a,
+    .header.header-light.header-small .inner-nav>ul>li>a {
+        /* color: #303133; */
+        color: #fff;
+        padding: 0 5px 0 5px !important;
+    }
+}
+
+
+/* force-remove-shadow-css end */
