@@ -112,6 +112,43 @@ body {
 }
 
 
+#footer {
+	font-size: 100%;
+	color: #666;
+	/* background: #fff; */
+	padding: 0;
+	border-top: 3px solid #999;
+	margin: 0;
+	text-align: center;
+}
+
+#footer p {
+	font-size: .9em;
+	line-height: 120%;
+	padding: 0 0 10px 0;
+	border: 0;
+	margin: 0;
+}
+
+
+#util {
+	color: #BFBFBA;
+	text-align: left;
+	padding: 11px 36px;
+}
+
+#util a:link, #util a:visited, #util a:active {
+	color: #BFBFBA;
+	text-decoration: none;
+}
+
+#util a:hover {
+	color: #BFBFBA;
+	text-decoration: underline;
+}
+
+
+
 /* media queries */
 
 @media screen and (max-width: 640px){
