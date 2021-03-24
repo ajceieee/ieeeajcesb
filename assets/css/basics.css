@@ -243,6 +243,10 @@
     border-bottom: 0px solid rgba(0, 0, 0, 0) !important;
 }*/
 
+.header {
+    height: 40px !important;
+}
+
 .header-sub-menu-dark .inner-nav .sub-menu li.mega-menu-col>a,
 .header.header-light .extra-nav>ul>li>a,
 .header.header-light .inner-brand,
