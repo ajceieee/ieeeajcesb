@@ -164,12 +164,12 @@
 /* home navbar start */
 
 .navs {
-    max-height: 40px;
+    max-height: 30px;
     font-family: poppins;
 }
 
 .navs-2 {
-    max-height: 70px;
+    max-height: 80px;
     font-family: poppins;
 }
 
@@ -196,6 +196,15 @@
 
 .navbar-dark a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 991px) {
+    /* .navs {
+        display: none;
+    } */
+    .navbar-dark a {
+        padding-top: 12px !important;
+    }
 }
 
 @media (max-width: 768px) {
