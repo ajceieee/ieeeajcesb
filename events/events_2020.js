@@ -16,7 +16,7 @@ $(document).ready(function () {
       time: "",
       participants: 30,
       report:
-        "WiE webinar was conducted on Tuesday, 19 th May. The talk included various aspects of continual learning like ikigai, personal growth, social media, and personal branding.Also, topics like feminism, self- love, goal setting and phubbing were touched upon.The registration count was 210 and largely composed of students and faculty members in which 40 % were external registrants.We received around 90 feedbacks on the session.Many concluded that the session was informative, encouraging, and valuable.",
+        "The student branch has presented an informative and technically profound Technojam which was open to all College students. The TechnoJam contest was held from 15th to 18th of May. Prizes worth Rs.1750 willbe awarded to the winners. A host of entries flocked in and the result, was a really tight competition where a lot of the contestants were neck to neck. At the end of the day, we have three winners based on thevarious judgement criteria. ",
     },
     {
       eventName: "Pitch &amp; Protect–Pro event of IEEE KHM",
@@ -38,8 +38,8 @@ $(document).ready(function () {
       <div class="col-md-8">
         <div class="card-body">
           <h5 class="card-title">${event.eventName}</h5>
+          <p class="card-text my-0"><small class="text-muted">${event.eventDate} </small></p>
           <p class="card-text">${event.report}</p>
-          <p class="card-text"><small class="text-muted">${event.eventDate} Time: ${event.time}</small></p>
         </div>
       </div>
     </div>
@@ -49,7 +49,7 @@ $(document).ready(function () {
   let webinars = [
     {
       webinarTopic:
-        "Topic: ‘Know it all’ to ‘Learn it all’: Developing a culture of continual learning and personal branding",
+        "‘Know it all’ to ‘Learn it all’: Developing a culture of continual learning and personal branding",
       speaker: "Aisha Nazia",
       webinarDate: "19 th May 2020",
       venue: "Online",
@@ -59,7 +59,7 @@ $(document).ready(function () {
         "WiE webinar was conducted on Tuesday, 19 th May. The talk included various aspects of continual learning like ikigai, personal growth, social media, and personal branding.Also, topics like feminism, self- love, goal setting and phubbing were touched upon.The registration count was 210 and largely composed of students and faculty members in which 40 % were external registrants.We received around 90 feedbacks on the session.Many concluded that the session was informative, encouraging, and valuable.",
     },
     {
-      webinarTopic: "Topic: Invisibility Cloak",
+      webinarTopic: "Invisibility Cloak",
       speaker: "SachethSanal",
       webinarDate: "21 May 2020",
       venue: "Online",
@@ -69,7 +69,7 @@ $(document).ready(function () {
         "A webinar on invisibility cloak was conducted on Thursday, 21st May. The session included various topics like what is cloaking, Invisibility by cloaking, Rochester Cloak and different applications of this technology and its limitations in detail. Registration count was 247. More than 50% of registrants were externals. We received around 70 feedbacks conveying that the session was very useful and knowledgeable.",
     },
     {
-      webinarTopic: "Topic: Machine Learning",
+      webinarTopic: "Machine Learning",
       speaker: "Neville Lusimba",
       webinarDate: "22 May 2020",
       venue: "Online",
@@ -79,7 +79,7 @@ $(document).ready(function () {
         "A webinar on machine learning was conducted on Friday, 22nd May. The session included various topics like what is Machine Learning, the technology behind Generative adversial network in detail, programming and so on. Registration count was around 267 and around 70% were external registrants. We received 76 feedbacks regarding the session, that it was very informative and useful.",
     },
     {
-      webinarTopic: "Topic: Volunteering with IEEE",
+      webinarTopic: "Volunteering with IEEE",
       speaker: "AathiraMarayil",
       webinarDate: "23rd May 2020",
       venue: "Online",
@@ -89,7 +89,7 @@ $(document).ready(function () {
         "A webinar on volunteering was conducted on Saturday, 23rd May. The talk included various aspects of volunteering, why to volunteer, benefits of volunteering, outcomes, and advantages of volunteering, etc. Also, the importance of IEEE, benefits of IEEE and professional branding were stressed upon. Theregistration count was 180 and largely composed of students. We received many feedbacks on the session and many concluded that the session was effective in highlighting the importance of IEEE and volunteering.",
     },
     {
-      webinarTopic: "Topic: Designing with Canva",
+      webinarTopic: "Designing with Canva",
       speaker: "Madhu Krishnan",
       webinarDate: "24th May 2020",
       venue: "Online",
@@ -100,7 +100,7 @@ $(document).ready(function () {
     },
     {
       webinarTopic:
-        "Topic: Open Source Programming and Design of Custom Library for Arduino IDE.",
+        "Open Source Programming and Design of Custom Library for Arduino IDE.",
       speaker: "Abubeker K M",
       webinarDate: "20th May 2020",
       venue: "Online",
@@ -130,10 +130,9 @@ $(document).ready(function () {
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">${event.webinarTopic}</h5>
-              <p class="card-text"><small class="text-muted">Speaker: ${event.speaker} </small></p>
-
+              <p class="card-text my-0"><small class="text-muted">Speaker: ${event.speaker} </small></p>
+              <p class="card-text my-0"><small class="text-muted">${event.webinarDate}</small></p>
               <p class="card-text">${event.report}</p>
-              <p class="card-text"><small class="text-muted">${event.webinarDate} Time: ${event.time}</small></p>
             </div>
           </div>
         </div>
