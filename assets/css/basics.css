@@ -165,7 +165,7 @@
 
 .navs {
     max-height: 30px;
-    font-family: poppins;
+    font-family: "Open Sans", sans-serif;
 }
 
 .navs-2 {
@@ -186,7 +186,7 @@
 }
 
 .navbar-dark {
-    background-color: #1b1d1f !important;
+    background-color: #000000 !important;
 }
 
 .navbar-dark a {
@@ -212,9 +212,34 @@
         display: none;
     } */
     .navbar-dark a {
-        font-size: xx-small;
-        float: left;
-        padding-top: 15px !important;
+        font-size: 12px;
+        line-height: 10px;
+        padding: 17px 0 0 0 !important;
+        margin: 0 !important;
+    }
+}
+
+@media (max-width: 340px) {
+    /* .navs {
+        display: none;
+    } */
+    .navbar-dark a {
+        font-size: 10px;
+        line-height: 10px;
+        padding: 17px 0 0 0 !important;
+        margin: 0 !important;
+    }
+}
+
+@media (max-width: 320px) {
+    /* .navs {
+        display: none;
+    } */
+    .navbar-dark a {
+        font-size: 8px;
+        line-height: 10px;
+        padding: 17px 0 0 0 !important;
+        margin: 0 !important;
     }
 }
 
