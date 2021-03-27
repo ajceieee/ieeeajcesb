@@ -23,7 +23,7 @@ $(document).ready(function () {
     {
       eventName: "SPECTRUM TALK",
       image: "",
-      eventDate: "21 st March",
+      eventDate: "21 March 2019",
       venue: "",
       time: "",
       participants: 24,
