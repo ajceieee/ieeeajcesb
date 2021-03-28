@@ -245,7 +245,7 @@ $(document).ready(function () {
     },
     {
       webinarTopic:
-        "A closer look at the English language education in Indian schools  ",
+        "",
       speaker: "Isha Polson ",
       image: "./images/2020/tech-timet3.jpeg",
       webinarDate: "19 September 2020",
