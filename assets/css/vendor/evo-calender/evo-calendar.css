@@ -89,7 +89,7 @@ button:focus {
 }
 .calendar-sidebar > .calendar-year > p {
   margin: 0;
-  font-size: 30px;
+
   display: inline-block;
 }
 .calendar-sidebar > .calendar-year > button.icon-button {

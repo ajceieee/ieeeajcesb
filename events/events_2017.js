@@ -3,7 +3,7 @@ $(document).ready(function () {
     {
       eventName: "Java Workshop",
       image: "./images/2017/java.jpg",
-      eventDate: "OCTOBER 04, 2017",
+      eventDate: " 04 OCTOBER 2017",
       venue: "",
       time: "",
       participants: 0,
@@ -13,7 +13,7 @@ $(document).ready(function () {
     {
       eventName: "Android Workshop",
       image: "images/2017/android.jpg",
-      eventDate: "OCTOBER 06, 2017",
+      eventDate: " 06 OCTOBER 2017",
       venue: "",
       time: "",
       participants: 0,
@@ -23,7 +23,7 @@ $(document).ready(function () {
     {
       eventName: "Photoshop Workshop",
       image: "images/2017/psd.jpg",
-      eventDate: "OCTOBER 09, 2017",
+      eventDate: "09 OCTOBER 2017",
       venue: "",
       time: "",
       participants: 24,

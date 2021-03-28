@@ -3,7 +3,7 @@ $(document).ready(function () {
     {
       eventName: "Management Session",
       image: "./images/2018/1.jpg",
-      eventDate: "MARCH 09, 2018",
+      eventDate: "09 MARCH 2018",
       venue: "",
       time: "",
       participants: 0,
@@ -13,7 +13,7 @@ $(document).ready(function () {
     {
       eventName: "Basic Electrical",
       image: "images/2018/2.jpg",
-      eventDate: "MARCH 09, 2018",
+      eventDate: "09 MARCH  2018",
       venue: "",
       time: "",
       participants: 0,
@@ -23,7 +23,7 @@ $(document).ready(function () {
     {
       eventName: "Assembling a PC",
       image: "images/2018/3.jpg",
-      eventDate: "MARCH 09, 2018",
+      eventDate: "09 MARCH 2018",
       venue: "",
       time: "",
       participants: 24,
