@@ -101,8 +101,7 @@ function newsData() {
     },
   ];
 
-  let events = [
-    ...newsList,
+  let events_2020 = [
     {
       id: 14,
       name: "Tech Talk - 2",
@@ -253,6 +252,85 @@ function newsData() {
         "This was a one hour session took by Isha Polson, B.Ed. Student in Regional Institute of Education ,Ajmer with 100 participants ",
     },
   ];
+
+  let events_2019 = [
+    {
+      id: 30,
+      name: "TALK ON “BEYOND THE SKY”",
+      date: "January/19/2019",
+      type: "Webinar",
+      description:
+        "As part of the science week, a meeting was conducted for the members. Our branch counsellor expanded the main theme ‘Beyond the sky’. Fellow student speakers gave talks on space stations. Careers and scope in space science were elaborated to students. Initiatives and pioneering undertaken by SpaceX were highlighted to students. A talk on the impact space exploration could have on population crisis was carried out. Prelims for the quiz on basic astronomy was conducted.",
+    },
+    {
+      id: 31,
+      name: "TALK ON “ENGINEERING AND WOMEN”",
+      date: "January/20/2019",
+      type: "Webinar",
+      description:
+        "WIE week started with an orientation for the WIE members based on the topic ‘Engineering and Women’ in association with IEEE WIE affinity group of AJCE SB. SB Vice Chair elaborated on women engineers in India and gender ratios. She described the different job sectors under engineering in India. A Talk on ‘The world we see is the work of an engineer’ was given by branch counsellor. He explained to students the roles and benefits a LinkedIn account has.",
+    },
+    {
+      id: 32,
+      name: " SPECTRUM TALK",
+      date: "June/20/2019",
+      type: "Webinar",
+      description:
+        "A talk based on the March edition of Spectrum magazine was held on 21 st March. The talk was given by Akin Babu Joseph, Chair of IAS Chapter IEEE AJCE SB. The members discussed various topics from the magazine",
+    },
+  ];
+
+  let events_2018 = [
+    {
+      id: 33,
+      name: "Management Session",
+      date: "March/09/2018",
+      type: "Webinar",
+      description:
+        "A session in Management and Entrepreneurship was hosted as a part of Minerva 3.0 to enlighten the hidden entrepreneur within them",
+    },
+    {
+      id: 34,
+      name: "Basic Electrical",
+      date: "March/09/2018",
+      type: "Webinar",
+      description:
+        "A basic electrical workshop was conducted which taught how electrical wiring is done in a house and how to change faulty electrical components",
+    },
+    {
+      id: 35,
+      name: "Assembling a PC",
+      date: "March/09/2018",
+      type: "Webinar",
+      description:
+        "The purpose of this workshop was to make people aware of how a computer is put together and the functions of different component.",
+    },
+  ];
+
+  let events_2017 = [
+    {
+      id: 36,
+      name: "Java Workshop ",
+      date: "October/04/2017",
+      type: "Webinar",
+      description: "Billions of devices run on Java. Knowing java enables students to build innovative applications on the web, mobile, electronic devices etc",
+    },
+    {
+      id: 37,
+      name: "Java Workshop ",
+      date: "October/06/2017",
+      type: "Webinar",
+      description: "The workshop in Android helps in familiarising the android app studio IDE and how to make your first app and launch it on the google playstore",
+    },
+    {
+      id: 38,
+      name: "Photoshop Workshop ",
+      date: "October/09/2017",
+      type: "Webinar",
+      description: "Photoshop is used everywhere from poster making to App UI designing. This workshop is for creative students who can convert their imagination to a digital reality.",
+    },
+  ]
+  let events = [...newsList, ...events_2020, ...events_2019, ...events_2018, ...events_2017];
 
   $("#calendar").evoCalendar();
   $("#calendar").evoCalendar("addCalendarEvent", events);
