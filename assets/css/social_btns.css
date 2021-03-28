@@ -55,7 +55,7 @@ body {
 
 .social_wrapper ul li:hover .fa-facebook {
   color: #3b5998;
-  text-shadow: 0 0 15px #3b5998;
+  text-shadow:0px 0px 15px #3b5998;
   transition: all 0.5s ease;
 }
 
@@ -134,7 +134,10 @@ body {
 #util {
 	color: #BFBFBA;
 	text-align: left;
-	padding: 11px 36px;
+  padding: 7px 36px;
+  margin: auto;
+ 
+  
 }
 
 #util a:link, #util a:visited, #util a:active {
@@ -145,7 +148,7 @@ body {
 #util a:hover {
 	color: #BFBFBA;
 	text-decoration: underline;
-}
+} 
 
 
 
@@ -198,10 +201,10 @@ body {
 
 @media screen and (min-width: 992px){
   .social_wrapper {
-    width: 160px;
+    width: 300px;
     padding: 100px 1px 0px 1px;
-    left: 75px;
-    top:130px;
+    left: 140px;
+    top:102px;
     
   }
   .social_wrapper ul li {
