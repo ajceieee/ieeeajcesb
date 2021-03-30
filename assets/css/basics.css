@@ -386,4 +386,20 @@
   object-fit: cover;
   object-position: 50% 50%;
 }
+/* Existing Members */
+.expand {
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  font-family:Arial;
+}
 
+.active, .expand:hover {
+  background-color: #2f2f2f;
+}
