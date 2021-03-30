@@ -400,6 +400,6 @@
   font-family:poppins;
 }
 
-.active, .expand:hover {
+.expand:hover {
   background-color: #2f2f2f;
 }
