@@ -1,6 +1,16 @@
 $(document).ready(function () {
   let events = [
     {
+      eventName: "MINERVA 3.0",
+      image: "./images/2018/module-6.jpg",
+      eventDate: "09 MARCH 2018",
+      venue: "",
+      time: "",
+      participants: 0,
+      report:
+        "It is an event organized by IEEE Kochi Hub for the women of various colleges around Kerala about Troubleshooting Basic Computer Issues and Home  appliances. The main events consisted of Various Workshops based on Familiarization of Computer Parts and Assembly, Scholarship Opportunities for Woman",
+    },
+    {
       eventName: "Management Session",
       image: "./images/2018/1.jpg",
       eventDate: "09 MARCH 2018",

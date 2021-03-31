@@ -2980,7 +2980,7 @@ body.off-canvas-sidebar-open .layout {
 }
 
 .header + .wrapper .module:first-child {
-  padding-top: 160px;
+  padding-top: 90px;
 }
 
 .header + .wrapper .module-sm:first-child {
