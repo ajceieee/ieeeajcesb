@@ -179,9 +179,13 @@
 }
 
 .ieee-logo-nav-li {
+  padding-right: 100px;
   float: right !important;
 }
 
+.ieee-amaljyothi {
+  padding-left: 100px;
+}
 .navbar-dark {
   background-color: #000000 !important;
 }
@@ -338,6 +342,15 @@
 }
 
 @media (min-width: 990px) and (max-width: 1135px) {
+  .ieee-logo-nav-li {
+    padding-right: 50px;
+    float: right !important;
+  }
+
+  .ieee-amaljyothi {
+    padding-left: 50px;
+  }
+
   .header-sub-menu-dark .inner-nav .sub-menu li.mega-menu-col > a,
   .header.header-light .extra-nav > ul > li > a,
   .header.header-light .inner-brand,
@@ -361,6 +374,17 @@
     /* color: #303133; */
     color: #fff;
     padding: 0 0px 0 0px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .ieee-logo-nav-li {
+    padding-right: 20px;
+    float: right !important;
+  }
+
+  .ieee-amaljyothi {
+    padding-left: 20px;
   }
 }
 
@@ -397,7 +421,7 @@
   text-align: center;
   outline: none;
   font-size: 15px;
-  font-family:poppins;
+  font-family: poppins;
 }
 
 .expand:hover {

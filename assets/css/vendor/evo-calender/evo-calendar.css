@@ -130,7 +130,7 @@ button:focus {
   padding: 0;
 }
 .calendar-sidebar > .month-list > .calendar-months > li {
-  padding: 7px 30px;
+  padding: 2px 30px;
   cursor: pointer;
   font-size: 16px;
 }
@@ -726,7 +726,7 @@ button.icon-button > span.chevron-arrow-right {
     font-size: 22px;
   }
   .calendar-sidebar > .month-list > .calendar-months > li {
-    padding: 6px 26px;
+    padding: 2px 26px;
   }
   .calendar-events > .event-header > p {
     margin: 0;
@@ -812,7 +812,7 @@ button.icon-button > span.chevron-arrow-right {
     display: table;
   }
   .calendar-sidebar > .month-list > .calendar-months > li {
-    padding: 10px 20px;
+    padding: 2px 20px;
     font-size: 20px;
     /* width: 50%;
         float: left; */
