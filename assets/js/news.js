@@ -279,6 +279,23 @@ function newsData() {
   let events_2021 = [
     {
       id: 32,
+      name: "Triviathon",
+      type: "Competition",
+      badge: "4-day Competition",
+      description:
+        "💡 Triviathon 💡- an interactive and live quiz where teams battle it out amongst each other.",
+      date: "January/30/2021",
+    },
+    {
+      id: 33,
+      name: "AGM",
+      type: "Meeting",
+      description:
+        "Annual General Meeting (AGM) 2021.",
+      date: "February/06/2021",
+    },
+    {
+      id: 34,
       name: "ExeCom Training",
       type: "ExeCom Training",
       description:
@@ -286,7 +303,7 @@ function newsData() {
       date: "February/14/2021",
     },
     {
-      id: 33,
+      id: 35,
       name: "Scientastic",
       type: "event",
       badge: "8-day event",
@@ -294,7 +311,7 @@ function newsData() {
       date: "February/21/2021",
     },
     {
-      id: 34,
+      id: 36,
       name: "Article Writing",
       type: "event",
       description:
@@ -302,14 +319,14 @@ function newsData() {
       date: "February/21/2021",
     },
     {
-      id: 35,
+      id: 37,
       name: "Webinar",
       type: "webinar",
       description: "Science in Everyday Life : From Kitchen to Cryptography 👨‍💻",
       date: "February/27/2021",
     },
     {
-      id: 36,
+      id: 38,
       name: "JAM",
       type: "Competition",
       description:
@@ -317,7 +334,7 @@ function newsData() {
       date: "February/23/2021",
     },
     {
-      id: 37,
+      id: 39,
       name: "Poster Designing",
       type: "Competition",
       description:
@@ -325,7 +342,7 @@ function newsData() {
       date: "February/23/2021",
     },
     {
-      id: 38,
+      id: 40,
       name: "Science Quiz",
       type: "Competition",
       description:
@@ -333,7 +350,7 @@ function newsData() {
       date: "February/27/2021",
     },
     {
-      id: 39,
+      id: 41,
       name: "Lets talk about Python",
       type: "Seminar",
       description:
@@ -341,7 +358,7 @@ function newsData() {
       date: "April/10/2021",
     },
     {
-      id: 40,
+      id: 42,
       name: "Membership Development session IAS",
       type: "Seminar",
       description:
