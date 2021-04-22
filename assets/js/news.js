@@ -351,6 +351,14 @@ function newsData() {
     },
     {
       id: 41,
+      name: "Science Quiz",
+      type: "Competition",
+      description:
+        "IEEE AJCE SB is conducting Meet Up 2021 as an induction session to welcome you to our Student Branch and let's have a fun session of meet and greet!🤝",
+      date: "March/28/2021",
+    },
+    {
+      id: 42,
       name: "Lets talk about Python",
       type: "Seminar",
       description:
@@ -358,7 +366,7 @@ function newsData() {
       date: "April/10/2021",
     },
     {
-      id: 42,
+      id: 43,
       name: "Membership Development session IAS",
       type: "Seminar",
       description:
