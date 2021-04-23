@@ -129,6 +129,15 @@ $(document).ready(function() {
                         month: "February",
                         year: 2021,
                         time: "6:00 pm",
+                    },
+                    {
+                        title: "Spectrum Talk",
+                        description: "Greetings from IEEE AJCE SB!! <br> We hereby present you a spectrum talk by our colleagues ✨",
+                        link: null,
+                        date: 23,
+                        month: "April",
+                        year: 2021,
+                        time: "4:00 pm",
                     }
                 ],
             };
