@@ -373,6 +373,30 @@ function newsData() {
         "IEEE IAS SBC of Amal Jyothi College of Engineering is organizing a MEMBERSHIP DEVELOPMENT SESSION for all the SB members to acknowledge you all about the benefits and programmes of IAS SBC.",
       date: "April/11/2021",
     },
+    {
+      id: 44,
+      name: "Membership Development session IAS",
+      type: "Seminar",
+      description:
+        "IEEE Spectrum is the flagship magazine, world’s largest professional organization devoted to engineering and the applied sciences. We hereby present you a spectrum talk by our colleagues ✨",
+      date: "April/23/2021",
+    },
+    {
+      id: 45,
+      name: "Membership Development session IAS",
+      type: "Seminar",
+      description:
+        "IEEE IAS SBC of Amal Jyothi College of Engineering is organizing a MEMBERSHIP DEVELOPMENT SESSION for all the SB members to acknowledge you all about the benefits and programmes of IAS SBC.",
+      date: "April/11/2021",
+    },
+    {
+      id: 46,
+      name: "Membership Development session IAS",
+      type: "Seminar",
+      description:
+        "IEEE IAS SBC of Amal Jyothi College of Engineering is organizing a MEMBERSHIP DEVELOPMENT SESSION for all the SB members to acknowledge you all about the benefits and programmes of IAS SBC.",
+      date: "April/11/2021",
+    },
   ];
   
   let events = [
