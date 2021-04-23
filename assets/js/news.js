@@ -375,7 +375,7 @@ function newsData() {
     },
     {
       id: 44,
-      name: "Membership Development session IAS",
+      name: "Spectrum Talk",
       type: "Seminar",
       description:
         "IEEE Spectrum is the flagship magazine, world’s largest professional organization devoted to engineering and the applied sciences. We hereby present you a spectrum talk by our colleagues ✨",
@@ -383,19 +383,19 @@ function newsData() {
     },
     {
       id: 45,
-      name: "Membership Development session IAS",
-      type: "Seminar",
+      name: "KROSS VORD",
+      type: "Competition",
       description:
-        "IEEE IAS SBC of Amal Jyothi College of Engineering is organizing a MEMBERSHIP DEVELOPMENT SESSION for all the SB members to acknowledge you all about the benefits and programmes of IAS SBC.",
-      date: "April/11/2021",
+        "The Women in Computing of IEEE Computer Society Chapter and WiE AG of IEEE AJCE SB is organising a crossword competition based on prominent women in technology.",
+      date: "April/24/2021",
     },
     {
       id: 46,
-      name: "Membership Development session IAS",
-      type: "Seminar",
+      name: "LEARN. THINK. DO FIGMA",
+      type: "Workshop",
       description:
-        "IEEE IAS SBC of Amal Jyothi College of Engineering is organizing a MEMBERSHIP DEVELOPMENT SESSION for all the SB members to acknowledge you all about the benefits and programmes of IAS SBC.",
-      date: "April/11/2021",
+        "The WiE AG of IEEE SB AJCE brings to you ✨  LEARN . THINK . DO FIGMA , an unparalleled hands on experience with Figma. <br /> 📌 Speaker - <b> Mr. Vyshakh C R </b> <br /> (UX UI designer, Autosmarts)",
+      date: "April/25/2021",
     },
   ];
   
