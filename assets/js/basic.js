@@ -147,6 +147,15 @@ $(document).ready(function() {
                         month: "April",
                         year: 2021,
                         time: "11:00 am",
+                    },
+                    {
+                        title: "LEARN. THINK. DO FIGMA",
+                        description: "The WiE AG of IEEE SB AJCE brings to you ✨  LEARN . THINK . DO FIGMA , an unparalleled hands on experience with Figma. <br /> 📌 Speaker - <b> Mr. Vyshakh C R </b> <br /> (UX UI designer, Autosmarts)",
+                        link: null,
+                        date: 25,
+                        month: "April",
+                        year: 2021,
+                        time: "11:00 am",
                     }
                 ],
             };
