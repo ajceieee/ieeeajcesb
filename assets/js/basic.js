@@ -138,6 +138,15 @@ $(document).ready(function() {
                         month: "April",
                         year: 2021,
                         time: "4:00 pm",
+                    },
+                    {
+                        title: "KROSS VORD",
+                        description: "The Women in Computing of IEEE Computer Society Chapter and WiE AG of IEEE AJCE SB is organising a crossword competition.",
+                        link: null,
+                        date: 24,
+                        month: "April",
+                        year: 2021,
+                        time: "11:00 am",
                     }
                 ],
             };
