@@ -397,6 +397,38 @@ function newsData() {
         "The WiE AG of IEEE SB AJCE brings to you ✨  LEARN . THINK . DO FIGMA , an unparalleled hands on experience with Figma. <br /> 📌 Speaker - <b> Mr. Vyshakh C R </b> <br /> (UX UI designer, Autosmarts)",
       date: "April/25/2021",
     },
+    {
+      id: 47,
+      name: "ECO-LUTION",
+      type: "Competition",
+      description:
+        "As part of the <b>PES Day celebrations 2021</b>,  <b>IEEE AJCE SB</b> delightfully presents you <b><i>Eco- lution</i></b> , a quiz competition based on the topic <b>Environmental Sustainability</b>.🌍",
+      date: "April/29/2021",
+    },
+    {
+      id: 48,
+      name: "CREARE",
+      type: "Competition",
+      description:
+        "Greetings from IEEE AJCE SB!!! As a part of the <b>PES Day celebrations2021</b>, <b>IEEE AJCE SB</b> presents you <b>Créaré</b>- to Create, a <b><i>poster designing competition</i></b> for all those amazing designers out there!!💫 <br />Theme💡: <b>Clean Energy Revolution</b>",
+      date: "April/29/2021",
+    },
+    {
+      id: 49,
+      name: "𝑸𝑼𝑰𝒁𝒁𝑬𝑹𝑰𝑨",
+      type: "Competition",
+      description:
+        "As a part of 𝐖𝐈𝐄𝐯𝐚𝐜𝐢𝐭𝐲, 𝐖𝐈𝐄 Week Celebrations 2021, 𝐖𝐈𝐄 𝐀𝐆 of 𝐈𝐄𝐄𝐄 𝐒𝐁 𝐕𝐀𝐒𝐓 in collaboration with 𝐖𝐈𝐄 𝐀𝐆 of 𝐈𝐄𝐄𝐄 𝐒𝐁 𝐀𝐉𝐂𝐄, 𝐈𝐄𝐄𝐄 𝐒𝐁 𝐏𝐄𝐂 honourably presenting '𝑸𝑼𝑰𝒁𝒁𝑬𝑹𝑰𝑨' based on the topic '𝑾𝑶𝑴𝑬𝑵 𝑨𝑵𝑫 𝑻𝑬𝑪𝑯𝑵𝑶𝑳𝑶𝑮𝒀' <br />It's time to check your knowledge!!💡",
+      date: "May/2/2021",
+    },
+    {
+      id: 50,
+      name: "RIDDLE IT",
+      type: "Competition",
+      description:
+        "As a part of 𝐖𝐈𝐄𝐯𝐚𝐜𝐢𝐭𝐲, 𝐖𝐈𝐄 Week Celebrations 2021, 𝐖𝐈𝐄 𝐀𝐆 of 𝐈𝐄𝐄𝐄 𝐒𝐁 𝐕𝐀𝐒𝐓 in collaboration with 𝐖𝐈𝐄 𝐀𝐆 𝐨𝐟 𝐈𝐄𝐄𝐄 𝐒𝐁 𝐀𝐉𝐂𝐄, 𝐈𝐄𝐄𝐄 𝐒𝐁 𝐏𝐄𝐂 brings to you '𝐑𝐈𝐃𝐃𝐋𝐄 𝐈𝐓' Puzzle Competition 🧩",
+      date: "May/3/2021",
+    },
   ];
   
   let events = [
