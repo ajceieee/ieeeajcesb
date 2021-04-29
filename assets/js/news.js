@@ -411,7 +411,7 @@ function newsData() {
       type: "Competition",
       description:
         "Greetings from IEEE AJCE SB!!! As a part of the <b>PES Day celebrations2021</b>, <b>IEEE AJCE SB</b> presents you <b>Créaré</b>- to Create, a <b><i>poster designing competition</i></b> for all those amazing designers out there!!💫 <br />Theme💡: <b>Clean Energy Revolution</b>",
-      date: "April/29/2021",
+      date: "April/30/2021",
     },
     {
       id: 49,
