@@ -429,6 +429,15 @@ function newsData() {
         "As a part of 𝐖𝐈𝐄𝐯𝐚𝐜𝐢𝐭𝐲, 𝐖𝐈𝐄 Week Celebrations 2021, 𝐖𝐈𝐄 𝐀𝐆 of 𝐈𝐄𝐄𝐄 𝐒𝐁 𝐕𝐀𝐒𝐓 in collaboration with 𝐖𝐈𝐄 𝐀𝐆 𝐨𝐟 𝐈𝐄𝐄𝐄 𝐒𝐁 𝐀𝐉𝐂𝐄, 𝐈𝐄𝐄𝐄 𝐒𝐁 𝐏𝐄𝐂 brings to you '𝐑𝐈𝐃𝐃𝐋𝐄 𝐈𝐓' Puzzle Competition 🧩",
       date: "May/3/2021",
     },
+    {
+      id: 51,
+      name: "IDEA HUNT",
+      type: "Competition",
+      badge: "6-day event",
+      description:
+        "We <b>WIE AG</b> of <b>IEEE SB College Of Engineering,  Pathanapuram</b>  in collabration with <b>WIE AG</b> of <b>IEEE SB AJCE, IEEE SB VAST</b> is organizing✨ <b>IDEA HUNT</b> ✨an <b>Idea Pitching competition</b> as a part of <b>WIEvacity WIE</b> Week Celebrations  2021 , Our theme is <b>WOMEN AND SOCIETY</b>",
+      date: "May/3/2021",
+    },
   ];
   
   let events = [

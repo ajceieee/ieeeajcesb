@@ -57,6 +57,15 @@ $(document).ready(function() {
                         year: 2021,
                         time: "12:00 am",
                     },
+                    {
+                        title: "IDEA HUNT",
+                        description: "We <b>WIE AG</b> of <b>IEEE SB College Of Engineering,  Pathanapuram</b>  in collabration with <b>WIE AG</b> of <b>IEEE SB AJCE, IEEE SB VAST</b> is organizing✨ <b>IDEA HUNT</b> ✨an <b>Idea Pitching competition</b> as a part of <b>WIEvacity WIE</b> Week Celebrations  2021 , Our theme is <b>WOMEN AND SOCIETY</b>",
+                        link: null,
+                        date: 8,
+                        month: "May",
+                        year: 2021,
+                        time: "12:00 am",
+                    },
                 ],
             };
 
