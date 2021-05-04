@@ -438,6 +438,14 @@ function newsData() {
         "We <b>WIE AG</b> of <b>IEEE SB College Of Engineering,  Pathanapuram</b>  in collabration with <b>WIE AG</b> of <b>IEEE SB AJCE, IEEE SB VAST</b> is organizing✨ <b>IDEA HUNT</b> ✨an <b>Idea Pitching competition</b> as a part of <b>WIEvacity WIE</b> Week Celebrations  2021 , Our theme is <b>WOMEN AND SOCIETY</b>",
       date: "May/3/2021",
     },
+    {
+      id: 52,
+      name: "CAPTURE LE MOMENT",
+      type: "Competition",
+      description:
+        "As a part of 𝗪𝗜𝗘vacity, 𝗪𝗜𝗘 Week Celebrations 2021, 𝗪𝗜𝗘 𝗔𝗚 of 𝗜𝗘𝗘𝗘 𝗦𝗕 𝗩𝗔𝗦𝗧 in collaboration with 𝗪𝗜𝗘 𝗔𝗚 of 𝗜𝗘𝗘𝗘 𝗦𝗕 𝗔𝗝𝗖𝗘, 𝗜𝗘𝗘𝗘 𝗦𝗕 𝗣𝗘𝗖 is honourably presenting a photography contest - '𝗖𝗔𝗣𝗧𝗨𝗥𝗘𝗥 𝗟𝗘 𝗠𝗢𝗠𝗘𝗡𝗧' <br> 📸 Its time to expose your photographic skills!!!",
+      date: "May/4/2021",
+    },
   ];
   
   let events = [
