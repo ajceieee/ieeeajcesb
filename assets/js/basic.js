@@ -64,7 +64,7 @@ $(document).ready(function() {
                         date: 9,
                         month: "May",
                         year: 2021,
-                        time: "11:59 pm",
+                        time: "5:00 pm",
                     },
                 ],
             };
