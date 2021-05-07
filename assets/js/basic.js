@@ -59,12 +59,12 @@ $(document).ready(function() {
                     },
                     {
                         title: "YP TALK",
-                        description: "As a part of 𝐖𝐈𝐄𝐯𝐚𝐜𝐢𝐭𝐲, 𝐖𝐈𝐄 Week Celebrations 2021, 𝐖𝐈𝐄 𝐀𝐆 of 𝐈𝐄𝐄𝐄 𝐒𝐁 𝐕𝐀𝐒𝐓 in collaboration with 𝐖𝐈𝐄 𝐀𝐆 of 𝐈𝐄𝐄𝐄 𝐒𝐁 𝐀𝐉𝐂𝐄, 𝐈𝐄𝐄𝐄 𝐒𝐁 𝐏𝐄𝐂 honourably presenting '𝑸𝑼𝑰𝒁𝒁𝑬𝑹𝑰𝑨' based on the topic '𝑾𝑶𝑴𝑬𝑵 𝑨𝑵𝑫 𝑻𝑬𝑪𝑯𝑵𝑶𝑳𝑶𝑮𝒀' <br />It's time to check your knowledge!!💡",
-                        link: "bit.ly/QUIZZERIA",
-                        date: 2,
+                        description: "The <b>IAS CHAPTER</b> OF <b>IEEE AJCE SB</b> hereby invites you all to witness one of the finest <b>YP Talk</b> by <b>IEEE Kerala Young  Professionals</b> on the topic <i>'Career in Semiconductor Industry'<i>.",
+                        link: "http://bit.ly/AJCE_YPTalks1",
+                        date: 10,
                         month: "May",
                         year: 2021,
-                        time: "08:30 pm",
+                        time: "07:00 pm",
                     },
                 ],
             };
