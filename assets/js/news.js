@@ -446,6 +446,14 @@ function newsData() {
         "As a part of 𝗪𝗜𝗘vacity, 𝗪𝗜𝗘 Week Celebrations 2021, 𝗪𝗜𝗘 𝗔𝗚 of 𝗜𝗘𝗘𝗘 𝗦𝗕 𝗩𝗔𝗦𝗧 in collaboration with 𝗪𝗜𝗘 𝗔𝗚 of 𝗜𝗘𝗘𝗘 𝗦𝗕 𝗔𝗝𝗖𝗘, 𝗜𝗘𝗘𝗘 𝗦𝗕 𝗣𝗘𝗖 is honourably presenting a photography contest - '𝗖𝗔𝗣𝗧𝗨𝗥𝗘𝗥 𝗟𝗘 𝗠𝗢𝗠𝗘𝗡𝗧' <br> 📸 Its time to expose your photographic skills!!!",
       date: "May/4/2021",
     },
+    {
+      id: 53,
+      name: "TECH TALK @AJCE",
+      type: "Competition",
+      description:
+        "Let's walk into  something that's worthwhile... The <b>IEEE AJCE SB</b> hereby invites you all to the the  <b>Tech Talk @AJCE</b> on the topic <i>'Inside the biggest neurotechnology experiment by Neuralink'</i>.",
+      date: "May/9/2021",
+    },
   ];
   
   let events = [
