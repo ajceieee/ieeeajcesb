@@ -449,10 +449,18 @@ function newsData() {
     {
       id: 53,
       name: "TECH TALK @AJCE",
-      type: "Competition",
+      type: "seminar",
       description:
         "Let's walk into  something that's worthwhile... The <b>IEEE AJCE SB</b> hereby invites you all to the the  <b>Tech Talk @AJCE</b> on the topic <i>'Inside the biggest neurotechnology experiment by Neuralink'</i>.",
       date: "May/9/2021",
+    },
+    {
+      id: 54,
+      name: "YP TALKS",
+      type: "seminar",
+      description:
+        "The <b>IAS CHAPTER</b> OF <b>IEEE AJCE SB</b> hereby invites you all to witness one of the finest <b>YP Talk</b> by <b>IEEE Kerala Young  Professionals</b> on the topic <i>'Career in Semiconductor Industry'<i>.",
+      date: "May/10/2021",
     },
   ];
   
