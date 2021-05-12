@@ -59,9 +59,9 @@ $(document).ready(function() {
                     },
                     {
                         title: "YP TALK",
-                        description: "The <b>IAS CHAPTER</b> OF <b>IEEE AJCE SB</b> hereby invites you all to witness one of the finest <b>YP Talk</b> by <b>IEEE Kerala Young  Professionals</b> on the topic <i>'Career in Semiconductor Industry'<i>.",
-                        link: "http://bit.ly/AJCE_YPTalks1",
-                        date: 10,
+                        description: "The IEEE AJCE SB hereby invites you all to witness one of the finest YP Talk by IEEE Kerala Young Professionals on the topic <b>'Hadoop and Big Data'</b>.",
+                        link: "http://bit.ly/AJCE_YPTalks2",
+                        date: 15,
                         month: "May",
                         year: 2021,
                         time: "07:00 pm",

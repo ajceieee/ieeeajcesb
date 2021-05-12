@@ -462,6 +462,14 @@ function newsData() {
         "The <b>IAS CHAPTER</b> OF <b>IEEE AJCE SB</b> hereby invites you all to witness one of the finest <b>YP Talk</b> by <b>IEEE Kerala Young  Professionals</b> on the topic <i>'Career in Semiconductor Industry'<i>.",
       date: "May/10/2021",
     },
+    {
+      id: 55,
+      name: "YP TALKS",
+      type: "seminar",
+      description:
+        "The IEEE AJCE SB hereby invites you all to witness one of the finest YP Talk by IEEE Kerala Young Professionals on the topic <b>'Hadoop and Big Data'</b>.",
+      date: "May/15/2021",
+    },
   ];
   
   let events = [
