@@ -470,6 +470,31 @@ function newsData() {
         "The IEEE AJCE SB hereby invites you all to witness one of the finest YP Talk by IEEE Kerala Young Professionals on the topic <b>'Hadoop and Big Data'</b>.",
       date: "May/15/2021",
     },
+    {
+      id: 56,
+      name: "Introduction to IEEEXtreme",
+      type: "seminar",
+      description:
+        "The Computer Society Chapter of IEEE SB AJCE presents a session on <b>'Introduction to IEEEXtreme'</b> <br />  <b>IEEEXtreme</b> is an annual competitive programming challenge in which teams of IEEE members, compete for 24 hrs against each other to solve a set of programming problems.",
+      date: "May/27/2021",
+    },
+    {
+      id: 57,
+      name: "WIE on Focus",
+      type: "seminar",
+      description:
+        "Greetings from the <b>WiE Affinity Group</b> of <b>IEEE SB Amal Jyothi College of Engineering</b>❗ <br /> We are delighted to invite you all for our event <b>WiE on Focus</b> , a membership development session exclusively conducted for <b>AJCEians</b> .",
+      date: "May/30/2021",
+    },
+    {
+      id: 58,
+      name: "YP TALKS",
+      type: "seminar",
+      badge: "6-day event",
+      description:
+        "<b>IEEE IAS SBC AJCE</b> in collaboration with <b>IEEE IA/IE/PELS Jt. Chapter Kerala</b> is organising a power packed 5 day <b>Virtual workshop</b>  on <b>MEDICAL IMAGE PROCESSING USING MATLAB</b> ",
+      date: "May/31/2021",
+    },
   ];
   
   let events = [
