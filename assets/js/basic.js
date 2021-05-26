@@ -44,6 +44,16 @@ $(document).ready(function () {
             time: "11:59 pm",
           },
           {
+            title: "What's the hype about IEEE?",
+            description:
+              "<b>IEEE SB LBSITW</b> in collaboration with <b>IEEE SB AJCE</b> has come up with an idea to conduct a session, exclusively for <b>LBTians</b> and <b>AJCEians</b> to deliver your answers for </b><i>What's the hype about IEEE?</i></b>  🤩",
+            link: "http://bit.ly/MD_session",
+            date: 29,
+            month: "May",
+            year: 2021,
+            time: "11:59 pm",
+          },
+          {
             title: "WIE on Focus",
             description:
               "Greetings from the <b>WiE Affinity Group</b> of <b>IEEE SB Amal Jyothi College of Engineering</b>❗ <br /> We are delighted to invite you all for our event <b>WiE on Focus</b> , a membership development session exclusively conducted for <b>AJCEians</b> .",
@@ -59,16 +69,6 @@ $(document).ready(function () {
               "<b>IEEE IAS SBC AJCE</b> in collaboration with <b>IEEE IA/IE/PELS Jt. Chapter Kerala</b> is organising a power packed 5 day <b>Virtual workshop</b>  on <b>MEDICAL IMAGE PROCESSING USING MATLAB</b>",
             link: "http://bit.ly/ajce-ias-workshop",
             date: 31,
-            month: "May",
-            year: 2021,
-            time: "11:59 pm",
-          },
-          {
-            title: "What's the hype about IEEE?",
-            description:
-              "<b>IEEE SB LBSITW</b> in collaboration with <b>IEEE SB AJCE</b> has come up with an idea to conduct a session, exclusively for <b>LBTians</b> and <b>AJCEians</b> to deliver your answers for </b><i>What's the hype about IEEE?</i></b>  🤩",
-            link: "http://bit.ly/MD_session",
-            date: 29,
             month: "May",
             year: 2021,
             time: "11:59 pm",
