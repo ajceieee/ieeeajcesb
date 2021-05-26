@@ -495,6 +495,14 @@ function newsData() {
         "<b>IEEE IAS SBC AJCE</b> in collaboration with <b>IEEE IA/IE/PELS Jt. Chapter Kerala</b> is organising a power packed 5 day <b>Virtual workshop</b>  on <b>MEDICAL IMAGE PROCESSING USING MATLAB</b> ",
       date: "May/31/2021",
     },
+    {
+      id: 58,
+      name: "What's the hype about IEEE?",
+      type: "session",
+      description:
+        "<b>IEEE SB LBSITW</b> in collaboration with <b>IEEE SB AJCE</b> has come up with an idea to conduct a session, exclusively for <b>LBTians</b> and <b>AJCEians</b> to deliver your answers for </b><i>What's the hype about IEEE?</i></b>  🤩",
+      date: "May/29/2021",
+    },
   ];
   
   let events = [
