@@ -34,16 +34,6 @@ $(document).ready(function () {
             time: "12:00 am",
           },
           {
-            title: "CREARE",
-            description:
-              "Greetings from IEEE AJCE SB!!! As a part of the <b>PES Day celebrations2021</b>, <b>IEEE AJCE SB</b> presents you <b>Créaré</b>- to Create, a <b><i>poster designing competition</i></b> for all those amazing designers out there!!💫 <br />Theme💡: <b>Clean Energy Revolution</b>",
-            link: "http://bit.ly/AJCE-Créaré",
-            date: 30,
-            month: "April",
-            year: 2021,
-            time: "12:00 am",
-          },
-          {
             title: "Introduction to IEEEXtreme",
             description:
               "The Computer Society Chapter of IEEE SB AJCE presents a session on <b>'Introduction to IEEEXtreme'</b> <br />  <b>IEEEXtreme</b> is an annual competitive programming challenge in which teams of IEEE members, compete for 24 hrs against each other to solve a set of programming problems.",
@@ -69,6 +59,16 @@ $(document).ready(function () {
               "<b>IEEE IAS SBC AJCE</b> in collaboration with <b>IEEE IA/IE/PELS Jt. Chapter Kerala</b> is organising a power packed 5 day <b>Virtual workshop</b>  on <b>MEDICAL IMAGE PROCESSING USING MATLAB</b>",
             link: "http://bit.ly/ajce-ias-workshop",
             date: 31,
+            month: "May",
+            year: 2021,
+            time: "11:59 pm",
+          },
+          {
+            title: "What's the hype about IEEE?",
+            description:
+              "<b>IEEE SB LBSITW</b> in collaboration with <b>IEEE SB AJCE</b> has come up with an idea to conduct a session, exclusively for <b>LBTians</b> and <b>AJCEians</b> to deliver your answers for </b><i>What's the hype about IEEE?</i></b>  🤩",
+            link: "http://bit.ly/AJCE-Créaré",
+            date: 29,
             month: "May",
             year: 2021,
             time: "11:59 pm",

@@ -496,7 +496,7 @@ function newsData() {
       date: "May/31/2021",
     },
     {
-      id: 58,
+      id: 59,
       name: "What's the hype about IEEE?",
       type: "session",
       description:
