@@ -67,7 +67,7 @@ $(document).ready(function () {
             title: "What's the hype about IEEE?",
             description:
               "<b>IEEE SB LBSITW</b> in collaboration with <b>IEEE SB AJCE</b> has come up with an idea to conduct a session, exclusively for <b>LBTians</b> and <b>AJCEians</b> to deliver your answers for </b><i>What's the hype about IEEE?</i></b>  🤩",
-            link: "http://bit.ly/AJCE-Créaré",
+            link: "http://bit.ly/MD_session",
             date: 29,
             month: "May",
             year: 2021,
