@@ -488,8 +488,8 @@ function newsData() {
     },
     {
       id: 58,
-      name: "YP TALKS",
-      type: "seminar",
+      name: "MEDICAL IMAGE PROCESSING USING MATLAB",
+      type: "event",
       badge: "6-day event",
       description:
         "<b>IEEE IAS SBC AJCE</b> in collaboration with <b>IEEE IA/IE/PELS Jt. Chapter Kerala</b> is organising a power packed 5 day <b>Virtual workshop</b>  on <b>MEDICAL IMAGE PROCESSING USING MATLAB</b> ",
