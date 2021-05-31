@@ -1,0 +1,26 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(8, 8, 8);
+  overflow: auto;
+}
+canvas {
+  background-color: #000;
+  background: transparent;
+  position: fixed;
+  z-index: 0;
+  pointer-events: none;
+}
+
+
+#price{
+  text-align: center;
+  background-color: #003044;
+  padding: 2em 0em 1.5em 0em;
+}

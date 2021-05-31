@@ -1,0 +1,138 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: #f59800;
+}
+/* #accord {
+  background-color: #003044;
+} */
+.box {
+  /* width: 92vw; */
+  min-width: 300px;
+  position: relative;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0px;
+  color: #f59800;
+  border: none;
+  padding: 22px 0;
+}
+.container-faq {
+  width: 100%;
+}
+.wrapper-new {
+  background-color: #003044;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 15px 25px rgba(0, 0, 50, 0.2);
+  box-shadow: 0 15px 25px rgba(0, 0, 50, 0.2);
+  border: none;
+}
+
+.toggle,
+.content,
+.youtube {
+  font-family: "Poppins", sans-serif;
+}
+.toggle {
+  min-width: 100%;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #f59800;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  /* padding: 0; */
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.content {
+  position: relative;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 30px;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  color: #f59800;
+  border: none;
+}
+.youtube {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 0;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #f59800;
+  font-weight: 600;
+  -webkit-box-shadow: 0 15px 25px rgba(0, 0, 50, 0.2);
+  box-shadow: 0 15px 25px rgba(0, 0, 50, 0.2);
+}
+.fab {
+  color: #ff0000;
+}
+
+.faq-text {
+  color: #f59800;
+}
+
+@media screen and (max-width: 939px) {
+  .toggle {
+    font-size: 12px;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .toggle {
+    font-size: 10px;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 473px) {
+  .toggle {
+    font-size: 10px;
+    border: none;
+    text-align: center;
+    justify-content: center;
+  }
+  .icon-faq{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .toggle {
+    font-size: 8px;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 334px) {
+  .toggle {
+    font-size: 6px;
+    border: none;
+  }
+}
