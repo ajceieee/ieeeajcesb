@@ -73,6 +73,16 @@ $(document).ready(function () {
             year: 2021,
             time: "11:59 pm",
           },
+          {
+            title: "QuaRunTime 2.0",
+            description:
+              "<b>IEEE IAS SBC AJCE</b> in collaboration with <b>IEEE IA/IE/PELS Jt. Chapter Kerala</b> is organising a power packed 5 day <b>Virtual workshop</b>  on <b>MEDICAL IMAGE PROCESSING USING MATLAB</b>",
+            link: "http://bit.ly/ajce-ias-workshop",
+            date: 31,
+            month: "May",
+            year: 2021,
+            time: "11:59 pm",
+          },
         ],
       };
 
