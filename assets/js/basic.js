@@ -76,10 +76,9 @@ $(document).ready(function () {
           {
             title: "QuaRunTime 2.0",
             description:
-              "<b>IEEE IAS SBC AJCE</b> in collaboration with <b>IEEE IA/IE/PELS Jt. Chapter Kerala</b> is organising a power packed 5 day <b>Virtual workshop</b>  on <b>MEDICAL IMAGE PROCESSING USING MATLAB</b>",
-            link: "http://bit.ly/ajce-ias-workshop",
-            date: 31,
-            month: "May",
+              "🔥Back with a bang 🔥 <br /> The <b>Computer Society Chapter of IEEE AJCE SB</b> avidly presents <b>QuaRunTime 2.0</b>. <br /> 💫 A bunch of stimulating events await you. <br />  <b><i>Stay tuned!</i></b> <br /> For the best is yet to come :) ✨",
+            date: 12,
+            month: "June",
             year: 2021,
             time: "11:59 pm",
           },
