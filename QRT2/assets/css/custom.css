@@ -14,6 +14,22 @@
   position: fixed !important;
 }
 
+@media screen and (max-width: 1180px) {
+
+  .main-head{
+    font-size: 400% !important;
+  }
+
+}
+
+@media screen and (max-width: 740px) {
+
+  .main-head{
+    font-size: 250% !important;
+  }
+
+}
+
 @media screen and (max-width: 500px) {
 
   .mob-item{
