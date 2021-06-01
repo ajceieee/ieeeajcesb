@@ -3567,9 +3567,9 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-/* Banner */
+/* home */
 
-	#banner {
+	#home {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3590,7 +3590,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		#banner h2 {
+		#home h2 {
 			-moz-transform: scale(1);
 			-webkit-transform: scale(1);
 			-ms-transform: scale(1);
@@ -3608,7 +3608,7 @@ input, select, textarea {
 			
 		}
 
-			#banner h2:before, #banner h2:after {
+			#home h2:before, #home h2:after {
 				-moz-transition: width 0.85s ease;
 				-webkit-transition: width 0.85s ease;
 				-ms-transition: width 0.85s ease;
@@ -3625,26 +3625,26 @@ input, select, textarea {
 				width: 100%;
 			}
 
-			#banner h2:before {
+			#home h2:before {
 				top: 0;
 				left: 0;
 			}
 
-			#banner h2:after {
+			#home h2:after {
 				bottom: 0;
 				right: 0;
 			}
 
-		#banner p {
+		#home p {
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
 		}
 
-			#banner p a {
+			#home p a {
 				color: inherit;
 			}
 
-		#banner .more {
+		#home .more {
 			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
 			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
 			-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
@@ -3675,7 +3675,7 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-			#banner .more:after {
+			#home .more:after {
 				background-image: url("images/arrow.svg");
 				background-position: center;
 				background-repeat: no-repeat;
@@ -3690,7 +3690,7 @@ input, select, textarea {
 				width: 1.5em;
 			}
 
-		#banner:after {
+		#home:after {
 			pointer-events: none;
 			-moz-transition: opacity 3s ease-in-out;
 			-webkit-transition: opacity 3s ease-in-out;
@@ -3714,27 +3714,27 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#banner {
+			#home {
 				padding: 7em 3em 5em 3em ;
 				height: auto;
 				min-height: 0;
 			}
 
-				#banner h2 {
+				#home h2 {
 					font-size: 2em;
 				}
 
-				#banner br {
+				#home br {
 					display: none;
 				}
 
-				#banner .more {
+				#home .more {
 					display: none;
 				}
 
 		}
 
-	body.is-preload #banner h2 {
+	body.is-preload #home h2 {
 		-moz-transform: scale(0.95);
 		-webkit-transform: scale(0.95);
 		-ms-transform: scale(0.95);
@@ -3742,11 +3742,11 @@ input, select, textarea {
 		opacity: 0;
 	}
 
-		body.is-preload #banner h2:before, body.is-preload #banner h2:after {
+		body.is-preload #home h2:before, body.is-preload #home h2:after {
 			width: 0;
 		}
 
-	body.is-preload #banner .more {
+	body.is-preload #home .more {
 		-moz-transform: translateY(8.5em);
 		-webkit-transform: translateY(8.5em);
 		-ms-transform: translateY(8.5em);
@@ -3754,7 +3754,7 @@ input, select, textarea {
 		opacity: 0;
 	}
 
-	body.is-preload #banner:after {
+	body.is-preload #home:after {
 		opacity: 1;
 	}
 
@@ -3930,12 +3930,12 @@ input, select, textarea {
 		background: none;
 	}
 
-	body.is-mobile.landing #banner,
+	body.is-mobile.landing #home,
 	body.is-mobile.landing .wrapper.style4 {
-		/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg"); */
+		/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/home.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/home.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/home.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/home.jpg"); */
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;

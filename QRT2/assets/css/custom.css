@@ -13,6 +13,7 @@
 .navbar-header{
   position: fixed !important;
 }
+
 @media screen and (max-width: 500px) {
 
   .mob-item{
@@ -21,6 +22,19 @@
 
   .mob-menu {
     display: block !important;
+  }
+
+  .main-head{
+    font-size: x-large !important;
+  }
+
+}
+
+
+@media screen and (max-width: 340px) {
+
+  .main-head{
+    font-size: larger !important;
   }
 
 }
