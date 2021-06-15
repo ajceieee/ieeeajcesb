@@ -502,13 +502,29 @@ function newsData() {
       date: "May/31/2021",
     },
     {
-      id: 59,
+      id: 60,
       name: "QuaRunTime 2.0",
       type: "event",
       badge: "6-day event",
       description:
         "🔥Back with a bang 🔥 <br /> The <b>Computer Society Chapter of IEEE AJCE SB</b> avidly presents <b>QuaRunTime 2.0</b>. <br /> 💫 A bunch of stimulating events await you. <br />  <b><i>Stay tuned!</i></b> <br /> For the best is yet to come :) ✨",
       date: "June/07/2021",
+    },
+    {
+      id: 61,
+      name: "YP TALKS",
+      type: "event",
+      description:
+        "The <b>Computer Society Chapter of IEEE AJCE SB</b> hereby invites you all to witness one of the finest YP Talk by IEEE Young Professionals on the topic <b>Industry Expectations From A CS Graduate</b>.",
+      date: "June/19/2021",
+    },
+    {
+      id: 62,
+      name: "Power Pansophy",
+      type: "event",
+      description:
+        "Quiz is a game of mind, intellectual, interest, power and joy. Are you ready to be a part of it? 😃 <br /><b>IEEE AJCE SB</b> proudly presents <br/>⚡️ <b>'Power Pansophy'</b> ⚡️<br /> A quiz competition in connection with the <b>PELS Day</b>.",
+      date: "June/19/2021",
     },
   ];
 

@@ -74,10 +74,19 @@ $(document).ready(function () {
             time: "11:59 pm",
           },
           {
-            title: "QuaRunTime 2.0",
+            title: "YP TALKS",
             description:
-              "🔥Back with a bang 🔥 <br /> The <b>Computer Society Chapter of IEEE AJCE SB</b> avidly presents <b>QuaRunTime 2.0</b>. <br /> 💫 A bunch of stimulating events await you. <br />  <b><i>Stay tuned!</i></b> <br /> For the best is yet to come :) ✨",
-            date: 12,
+              "The <b>Computer Society Chapter of IEEE AJCE SB</b> hereby invites you all to witness one of the finest YP Talk by IEEE Young Professionals on the topic <b>Industry Expectations From A CS Graduate</b>.",
+            date: 19,
+            month: "June",
+            year: 2021,
+            time: "11:59 pm",
+          },
+          {
+            title: "Power Pansophy",
+            description:
+              "Quiz is a game of mind, intellectual, interest, power and joy. Are you ready to be a part of it? 😃 <br /><b>IEEE AJCE SB</b> proudly presents <br/>⚡️ <b>'Power Pansophy'</b> ⚡️<br /> A quiz competition in connection with the <b>PELS Day</b>.",
+            date: 19,
             month: "June",
             year: 2021,
             time: "11:59 pm",
