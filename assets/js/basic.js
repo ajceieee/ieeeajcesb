@@ -91,6 +91,15 @@ $(document).ready(function () {
             year: 2021,
             time: "11:59 pm",
           },
+          {
+            title: "YP TALKS",
+            description:
+              "<i>Do what you love and success will follow 👣. Passion is the fuel behind a successful career.</i>   ~ Meg Whitman <br /> Deep conversations with the right people are priceless 💬. The <b>WiE Affinity Group</b> of <b>IEEE SB Amal Jyothi College of Engineering</b> and <b>IEEE Young Professionals Kerala Section</b> brings to you <b>YP TALKS</b> on the topic  👩‍🏫 <i><b>WOMEN IN TECH</b></i> 👩‍💻",
+              date: 20,
+              month: "June",
+              year: 2021,
+              time: "11:59 pm",
+          },
         ],
       };
 
