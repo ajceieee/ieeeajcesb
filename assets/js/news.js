@@ -534,6 +534,21 @@ function newsData() {
         "<i>Do what you love and success will follow 👣. Passion is the fuel behind a successful career.</i>   ~ Meg Whitman <br /> Deep conversations with the right people are priceless 💬. The <b>WiE Affinity Group</b> of <b>IEEE SB Amal Jyothi College of Engineering</b> and <b>IEEE Young Professionals Kerala Section</b> brings to you <b>YP TALKS</b> on the topic  👩‍🏫 <i><b>WOMEN IN TECH</b></i> 👩‍💻",
       date: "June/20/2021",
     },
+    {
+      id: 64,
+      name: "FIX-THE-MIX",
+      type: "event",
+      description:
+        "The <b>WiE Affinity Group</b> of <b>IEEE SB AJCE</b> is here with an Instagram challenge to tackle your brains🧠. In commemoration of <i>Women in Engineering Day</i>, we are organizing <b>FIX-THE-MIX</b>, a picture 🧩 puzzle.",
+      date: "June/27/2021",
+    },{
+      id: 65,
+      name: "YP TALKS",
+      type: "event",
+      description:
+        " <b>IEEE AJCE SB</b> here presents <b><i>'MACROCLICK'</i></b> a photography contest",
+      date: "July/04/2021",
+    },
   ];
 
   let events = [
