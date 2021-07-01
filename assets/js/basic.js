@@ -83,20 +83,20 @@ $(document).ready(function () {
             time: "11:59 pm",
           },
           {
-            title: "Power Pansophy",
+            title: "FIX-THE-MIX",
             description:
-              "Quiz is a game of mind, intellectual, interest, power and joy. Are you ready to be a part of it? 😃 <br /><b>IEEE AJCE SB</b> proudly presents <br/>⚡️ <b>'Power Pansophy'</b> ⚡️<br /> A quiz competition in connection with the <b>PELS Day</b>.",
-            date: 19,
+              "The <b>WiE Affinity Group</b> of <b>IEEE SB AJCE</b> is here with an Instagram challenge to tackle your brains🧠. In commemoration of <i>Women in Engineering Day</i>, we are organizing <b>FIX-THE-MIX</b>, a picture 🧩 puzzle.",
+            date: 27,
             month: "June",
             year: 2021,
             time: "11:59 pm",
           },
           {
-            title: "YP TALKS",
+            title: "MACROCLICK",
             description:
-              "<i>Do what you love and success will follow 👣. Passion is the fuel behind a successful career.</i>   ~ Meg Whitman <br /> Deep conversations with the right people are priceless 💬. The <b>WiE Affinity Group</b> of <b>IEEE SB Amal Jyothi College of Engineering</b> and <b>IEEE Young Professionals Kerala Section</b> brings to you <b>YP TALKS</b> on the topic  👩‍🏫 <i><b>WOMEN IN TECH</b></i> 👩‍💻",
-              date: 20,
-              month: "June",
+              "<b>IEEE AJCE SB</b> here presents <b><i>'MACROCLICK'</i></b> a photography contest",
+              date: 04,
+              month: "July",
               year: 2021,
               time: "11:59 pm",
           },
