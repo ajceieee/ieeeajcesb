@@ -570,7 +570,7 @@ function newsData() {
     },
     {
       id: 67,
-      name: "afiş_Ø",
+      name: "Code a Pookalam🌸",
       type: "event",
       description: `Hey folks 🌼, <br />
 

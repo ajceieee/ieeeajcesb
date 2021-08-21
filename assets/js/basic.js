@@ -39,12 +39,19 @@ $(document).ready(function () {
             time: '11:59pm',
           },
           {
-            title: 'Introduction to IEEEXtreme',
+            title: 'Code a Pookalam🌸',
             description:
-              "The Computer Society Chapter of IEEE SB AJCE presents a session on <b>'Introduction to IEEEXtreme'</b> <br />  <b>IEEEXtreme</b> is an annual competitive programming challenge in which teams of IEEE members, compete for 24 hrs against each other to solve a set of programming problems.",
-            link: 'https://bit.ly/ajce-xtreme',
-            date: 27,
-            month: 'May',
+              `Hey folks 🌼, <br />
+
+              Happy Onam and we wish you a bountiful of happiness and prosperity ahead✨. <br />
+              
+              Since the current situation is holding us back from celebrating this Onam harmoniously, we are forced to perform programs virtually. So why don't we *Code a Pookalam🌸* ? Won't that be fun? <br/>
+              
+              Join this contest, *Code a Pookalam🌸* and win exciting prizes🤩 <br/> To know more visit the link below <br />
+              <a href="http://bit.ly/ajce-pookalam">bit.ly/ajce-pookalam</a>`,
+            link: null,
+            date: 25,
+            month: 'August',
             year: 2021,
             time: '11:59 pm',
           },
