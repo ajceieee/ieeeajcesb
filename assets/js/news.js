@@ -544,7 +544,7 @@ function newsData() {
     },
     {
       id: 65,
-      name: "YP TALKS",
+      name: "MACROCLICK",
       type: "event",
       description:
         " <b>IEEE AJCE SB</b> here presents <b><i>'MACROCLICK'</i></b> a photography contest",
@@ -566,7 +566,7 @@ function newsData() {
       Register and upload your poster in the given link 👇<br>
       <a href='http://bit.ly/AJCE_WiE-Afis'>Register Now</a>
 `,
-      date: "August/23/2021",
+      date: "August/14/2021",
     },
     {
       id: 67,
