@@ -281,6 +281,7 @@ function newsData() {
       name: "Triviathon",
       type: "Competition",
       badge: "4-day Competition",
+      image: "../../events/images/2021/triviathon.jpeg",
       description:
         "💡 Triviathon 💡- an interactive and live quiz where teams battle it out amongst each other.",
       date: "January/30/2021",
@@ -289,6 +290,7 @@ function newsData() {
       id: 33,
       name: "AGM",
       type: "Meeting",
+      image: "../../events/images/2021/agm.jpeg",
       description: "Annual General Meeting (AGM) 2021.",
       date: "February/06/2021",
     },
@@ -296,6 +298,7 @@ function newsData() {
       id: 34,
       name: "ExeCom Training",
       type: "ExeCom Training",
+      image: "",
       description:
         "Student Branch ExeCom Training for IEEE SB AJCE and IEEE SB GECK",
       date: "February/14/2021",
@@ -304,6 +307,7 @@ function newsData() {
       id: 35,
       name: "Scientastic",
       type: "event",
+      image: "../../events/images/2021/scientastic.jpg",
       badge: "8-day event",
       description: "Science Week Celebration 2021 (21st - 28th February)",
       date: "February/21/2021",
@@ -312,6 +316,7 @@ function newsData() {
       id: 36,
       name: "Article Writing",
       type: "event",
+      image: "../../events/images/2021/article-writing.jpg",
       description:
         "Share your article and win amazing cash prize and certificates❗ Last date for submission February-27",
       date: "February/21/2021",
@@ -320,6 +325,7 @@ function newsData() {
       id: 37,
       name: "Webinar",
       type: "webinar",
+      image: "../../events/images/2021/webinar.jpg",
       description: "Science in Everyday Life : From Kitchen to Cryptography 👨‍💻",
       date: "February/27/2021",
     },
@@ -327,6 +333,7 @@ function newsData() {
       id: 38,
       name: "JAM",
       type: "Competition",
+      image: "../../events/images/2021/just-a-minute.jpg",
       description:
         "JAM Competition, Topic : Science in Everyday Life 🧪  Last date for submission February-27",
       date: "February/23/2021",
@@ -335,6 +342,7 @@ function newsData() {
       id: 39,
       name: "Poster Designing",
       type: "Competition",
+      image: "../../events/images/2021/poster-design.jpg",
       description:
         "Poster Designing Competition, Topic: Conservation of electricty (school level), 2021 International Year of Sustainable Development (Undergraduate level). Share your poster and win amazing cash prizes and certificates 🎉. Last date for submission February-27",
       date: "February/23/2021",
@@ -343,14 +351,16 @@ function newsData() {
       id: 40,
       name: "Science Quiz",
       type: "Competition",
+      image: "../../events/images/2021/science-quiz.jpg",
       description:
         "Test your knowledge of scientifc facts and applications by participating in our fun quiz ✨",
       date: "February/27/2021",
     },
     {
       id: 41,
-      name: "Science Quiz",
-      type: "Competition",
+      name: "SB MEET UP",
+      type: "meetup",
+      image: "../../events/images/2021/sb_meet.jpeg",
       description:
         "IEEE AJCE SB is conducting Meet Up 2021 as an induction session to welcome you to our Student Branch and let's have a fun session of meet and greet!🤝",
       date: "March/28/2021",
@@ -359,6 +369,7 @@ function newsData() {
       id: 42,
       name: "Lets talk about Python",
       type: "Seminar",
+      image: "../../events/images/2021/lets_talk_about_python.jpg",
       description:
         "IEEE SB of Amal Jyothi College of Engineering is conducting a session on Lets talk about Python 👩‍💻👩‍💻 to enhance the  knowledge and fun in learning Python as a language.",
       date: "April/10/2021",
@@ -367,6 +378,7 @@ function newsData() {
       id: 43,
       name: "Membership Development session IAS",
       type: "Seminar",
+      image: "../../events/images/2021/md_session_ias.jpg",
       description:
         "IEEE IAS SBC of Amal Jyothi College of Engineering is organizing a MEMBERSHIP DEVELOPMENT SESSION for all the SB members to acknowledge you all about the benefits and programmes of IAS SBC.",
       date: "April/11/2021",
@@ -375,6 +387,7 @@ function newsData() {
       id: 44,
       name: "Spectrum Talk",
       type: "Seminar",
+      image: "../../events/images/2021/spectrum_talk.jpeg",
       description:
         "IEEE Spectrum is the flagship magazine, world’s largest professional organization devoted to engineering and the applied sciences. We hereby present you a spectrum talk by our colleagues ✨",
       date: "April/23/2021",
@@ -383,6 +396,7 @@ function newsData() {
       id: 45,
       name: "KROSS VORD",
       type: "Competition",
+      image: "../../events/images/2021/kross_vord.jpeg",
       description:
         "The Women in Computing of IEEE Computer Society Chapter and WiE AG of IEEE AJCE SB is organising a crossword competition based on prominent women in technology.",
       date: "April/24/2021",
@@ -391,6 +405,7 @@ function newsData() {
       id: 46,
       name: "LEARN. THINK. DO FIGMA",
       type: "Workshop",
+      image: "../../events/images/2021/learn_think_do.jpeg",
       description:
         "The WiE AG of IEEE SB AJCE brings to you ✨  LEARN . THINK . DO FIGMA , an unparalleled hands on experience with Figma. <br /> 📌 Speaker - <b> Mr. Vyshakh C R </b> <br /> (UX UI designer, Autosmarts)",
       date: "April/25/2021",
@@ -399,6 +414,7 @@ function newsData() {
       id: 47,
       name: "ECO-LUTION",
       type: "Competition",
+      image: "../../events/images/2021/eco-lution.jpg",
       description:
         "As part of the <b>PES Day celebrations 2021</b>,  <b>IEEE AJCE SB</b> delightfully presents you <b><i>Eco- lution</i></b> , a quiz competition based on the topic <b>Environmental Sustainability</b>.🌍",
       date: "April/29/2021",
@@ -407,6 +423,7 @@ function newsData() {
       id: 48,
       name: "CREARE",
       type: "Competition",
+      image: "../../events/images/2021/creare.jpg",
       description:
         "Greetings from IEEE AJCE SB!!! As a part of the <b>PES Day celebrations2021</b>, <b>IEEE AJCE SB</b> presents you <b>Créaré</b>- to Create, a <b><i>poster designing competition</i></b> for all those amazing designers out there!!💫 <br />Theme💡: <b>Clean Energy Revolution</b>",
       date: "April/30/2021",
@@ -415,6 +432,7 @@ function newsData() {
       id: 49,
       name: "𝑸𝑼𝑰𝒁𝒁𝑬𝑹𝑰𝑨",
       type: "Competition",
+      image: "../../events/images/2021/quizzeira.jpg",
       description:
         "As a part of 𝐖𝐈𝐄𝐯𝐚𝐜𝐢𝐭𝐲, 𝐖𝐈𝐄 Week Celebrations 2021, 𝐖𝐈𝐄 𝐀𝐆 of 𝐈𝐄𝐄𝐄 𝐒𝐁 𝐕𝐀𝐒𝐓 in collaboration with 𝐖𝐈𝐄 𝐀𝐆 of 𝐈𝐄𝐄𝐄 𝐒𝐁 𝐀𝐉𝐂𝐄, 𝐈𝐄𝐄𝐄 𝐒𝐁 𝐏𝐄𝐂 honourably presenting '𝑸𝑼𝑰𝒁𝒁𝑬𝑹𝑰𝑨' based on the topic '𝑾𝑶𝑴𝑬𝑵 𝑨𝑵𝑫 𝑻𝑬𝑪𝑯𝑵𝑶𝑳𝑶𝑮𝒀' <br />It's time to check your knowledge!!💡",
       date: "May/2/2021",
@@ -423,6 +441,7 @@ function newsData() {
       id: 50,
       name: "RIDDLE IT",
       type: "Competition",
+      image: "../../events/images/2021/riddle-it.jpg",
       description:
         "As a part of 𝐖𝐈𝐄𝐯𝐚𝐜𝐢𝐭𝐲, 𝐖𝐈𝐄 Week Celebrations 2021, 𝐖𝐈𝐄 𝐀𝐆 of 𝐈𝐄𝐄𝐄 𝐒𝐁 𝐕𝐀𝐒𝐓 in collaboration with 𝐖𝐈𝐄 𝐀𝐆 𝐨𝐟 𝐈𝐄𝐄𝐄 𝐒𝐁 𝐀𝐉𝐂𝐄, 𝐈𝐄𝐄𝐄 𝐒𝐁 𝐏𝐄𝐂 brings to you '𝐑𝐈𝐃𝐃𝐋𝐄 𝐈𝐓' Puzzle Competition 🧩",
       date: "May/3/2021",
@@ -431,6 +450,7 @@ function newsData() {
       id: 51,
       name: "IDEA HUNT",
       type: "Competition",
+      image: "../../events/images/2021/idea-hunt.jpg",
       badge: "6-day event",
       description:
         "We <b>WIE AG</b> of <b>IEEE SB College Of Engineering,  Pathanapuram</b>  in collabration with <b>WIE AG</b> of <b>IEEE SB AJCE, IEEE SB VAST</b> is organizing✨ <b>IDEA HUNT</b> ✨an <b>Idea Pitching competition</b> as a part of <b>WIEvacity WIE</b> Week Celebrations  2021 , Our theme is <b>WOMEN AND SOCIETY</b>",
@@ -440,6 +460,7 @@ function newsData() {
       id: 52,
       name: "CAPTURE LE MOMENT",
       type: "Competition",
+      image: "../../events/images/2021/capture_le_moment.jpg",
       description:
         "As a part of 𝗪𝗜𝗘vacity, 𝗪𝗜𝗘 Week Celebrations 2021, 𝗪𝗜𝗘 𝗔𝗚 of 𝗜𝗘𝗘𝗘 𝗦𝗕 𝗩𝗔𝗦𝗧 in collaboration with 𝗪𝗜𝗘 𝗔𝗚 of 𝗜𝗘𝗘𝗘 𝗦𝗕 𝗔𝗝𝗖𝗘, 𝗜𝗘𝗘𝗘 𝗦𝗕 𝗣𝗘𝗖 is honourably presenting a photography contest - '𝗖𝗔𝗣𝗧𝗨𝗥𝗘𝗥 𝗟𝗘 𝗠𝗢𝗠𝗘𝗡𝗧' <br> 📸 Its time to expose your photographic skills!!!",
       date: "May/4/2021",
@@ -448,6 +469,7 @@ function newsData() {
       id: 53,
       name: "TECH TALK @AJCE",
       type: "seminar",
+      image: "../../events/images/2021/tech_talk_@ajce.jpg",
       description:
         "Let's walk into  something that's worthwhile... The <b>IEEE AJCE SB</b> hereby invites you all to the the  <b>Tech Talk @AJCE</b> on the topic <i>'Inside the biggest neurotechnology experiment by Neuralink'</i>.",
       date: "May/9/2021",
@@ -456,6 +478,7 @@ function newsData() {
       id: 54,
       name: "YP TALKS",
       type: "seminar",
+      image: "../../events/images/2021/yp_talk.jpg",
       description:
         "The <b>IAS CHAPTER</b> OF <b>IEEE AJCE SB</b> hereby invites you all to witness one of the finest <b>YP Talk</b> by <b>IEEE Kerala Young  Professionals</b> on the topic <i>'Career in Semiconductor Industry'<i>.",
       date: "May/10/2021",
@@ -464,6 +487,7 @@ function newsData() {
       id: 55,
       name: "YP TALKS",
       type: "seminar",
+      image: "../../events/images/2021/yp-talk-hadoop.jpg",
       description:
         "The IEEE AJCE SB hereby invites you all to witness one of the finest YP Talk by IEEE Kerala Young Professionals on the topic <b>'Hadoop and Big Data'</b>.",
       date: "May/15/2021",
@@ -472,6 +496,7 @@ function newsData() {
       id: 56,
       name: "Introduction to IEEEXtreme",
       type: "seminar",
+      image: "../../events/images/2021/intro_to_ieeextreme.jpg",
       description:
         "The Computer Society Chapter of IEEE SB AJCE presents a session on <b>'Introduction to IEEEXtreme'</b> <br />  <b>IEEEXtreme</b> is an annual competitive programming challenge in which teams of IEEE members, compete for 24 hrs against each other to solve a set of programming problems.",
       date: "May/27/2021",
@@ -480,6 +505,7 @@ function newsData() {
       id: 57,
       name: "What's the hype about IEEE?",
       type: "session",
+      image: "../../events/images/2021/hype_about_ieee.jpg",
       description:
         "<b>IEEE SB LBSITW</b> in collaboration with <b>IEEE SB AJCE</b> has come up with an idea to conduct a session, exclusively for <b>LBTians</b> and <b>AJCEians</b> to deliver your answers for </b><i>What's the hype about IEEE?</i></b>  🤩",
       date: "May/29/2021",
@@ -488,6 +514,7 @@ function newsData() {
       id: 58,
       name: "WIE on Focus",
       type: "seminar",
+      image: "../../events/images/2021/md_session_wie.jpg",
       description:
         "Greetings from the <b>WiE Affinity Group</b> of <b>IEEE SB Amal Jyothi College of Engineering</b>❗ <br /> We are delighted to invite you all for our event <b>WiE on Focus</b> , a membership development session exclusively conducted for <b>AJCEians</b> .",
       date: "May/30/2021",
@@ -496,6 +523,7 @@ function newsData() {
       id: 59,
       name: "MEDICAL IMAGE PROCESSING USING MATLAB",
       type: "event",
+      image: "../../events/images/2021/matlab.jpg",
       badge: "6-day event",
       description:
         "<b>IEEE IAS SBC AJCE</b> in collaboration with <b>IEEE IA/IE/PELS Jt. Chapter Kerala</b> is organising a power packed 5 day <b>Virtual workshop</b>  on <b>MEDICAL IMAGE PROCESSING USING MATLAB</b> ",
@@ -505,6 +533,7 @@ function newsData() {
       id: 60,
       name: "QuaRunTime 2.0",
       type: "event",
+      image: "../../events/images/2021/quaruntime2.jpg",
       badge: "6-day event",
       description:
         "🔥Back with a bang 🔥 <br /> The <b>Computer Society Chapter of IEEE AJCE SB</b> avidly presents <b>QuaRunTime 2.0</b>. <br /> 💫 A bunch of stimulating events await you. <br />  <b><i>Stay tuned!</i></b> <br /> For the best is yet to come :) ✨",
@@ -514,6 +543,7 @@ function newsData() {
       id: 61,
       name: "YP TALKS",
       type: "event",
+      image: "../../events/images/2021/yp-talk-3.jpg",
       description:
         "The <b>Computer Society Chapter of IEEE AJCE SB</b> hereby invites you all to witness one of the finest YP Talk by IEEE Young Professionals on the topic <b>Industry Expectations From A CS Graduate</b>.",
       date: "June/19/2021",
@@ -522,6 +552,7 @@ function newsData() {
       id: 62,
       name: "Power Pansophy",
       type: "event",
+      image: "../../events/images/2021/power-pansophy.jpg",
       description:
         "Quiz is a game of mind, intellectual, interest, power and joy. Are you ready to be a part of it? 😃 <br /><b>IEEE AJCE SB</b> proudly presents <br/>⚡️ <b>'Power Pansophy'</b> ⚡️<br /> A quiz competition in connection with the <b>PELS Day</b>.",
       date: "June/19/2021",
@@ -530,6 +561,7 @@ function newsData() {
       id: 63,
       name: "YP TALKS",
       type: "event",
+      image: "../../events/images/2021/yp-talk-4.jpg",
       description:
         "<i>Do what you love and success will follow 👣. Passion is the fuel behind a successful career.</i>   ~ Meg Whitman <br /> Deep conversations with the right people are priceless 💬. The <b>WiE Affinity Group</b> of <b>IEEE SB Amal Jyothi College of Engineering</b> and <b>IEEE Young Professionals Kerala Section</b> brings to you <b>YP TALKS</b> on the topic  👩‍🏫 <i><b>WOMEN IN TECH</b></i> 👩‍💻",
       date: "June/20/2021",
@@ -538,6 +570,7 @@ function newsData() {
       id: 64,
       name: "FIX-THE-MIX",
       type: "event",
+      image: "../../events/images/2021/fix-the-mix.jpg",
       description:
         "The <b>WiE Affinity Group</b> of <b>IEEE SB AJCE</b> is here with an Instagram challenge to tackle your brains🧠. In commemoration of <i>Women in Engineering Day</i>, we are organizing <b>FIX-THE-MIX</b>, a picture 🧩 puzzle.",
       date: "June/27/2021",
@@ -546,6 +579,7 @@ function newsData() {
       id: 65,
       name: "MACROCLICK",
       type: "event",
+      image: "../../events/images/2021/macroclick.jpg",
       description:
         " <b>IEEE AJCE SB</b> here presents <b><i>'MACROCLICK'</i></b> a photography contest",
       date: "July/04/2021",
@@ -554,6 +588,7 @@ function newsData() {
       id: 66,
       name: "afiş_Ø",
       type: "event",
+      image: "../../events/images/2021/Qfis.jpeg",
       description: `
       As a part of the Onam 🌸 festival we are delighted to
       conduct afiş_Ø, a digital poster making competition.
@@ -569,6 +604,7 @@ function newsData() {
       id: 67,
       name: "Code a Pookalam🌸",
       type: "event",
+      image: "../../events/images/2021/code-a-pookalam.jpg",
       description: `Hey folks 🌼, <br />
 
       Happy Onam and we wish you a bountiful of happiness and prosperity ahead✨. <br />
@@ -582,6 +618,7 @@ function newsData() {
       id: 68,
       name: "IEEEXtreme 15.0",
       type: "event",
+      image: "../../events/images/2021/Talk on XTREME 15.0.jpg",
       description: `<i>"The secret of getting ahead is getting started. 👣"</i><br />
 
       Hello folks🤗<br/>
@@ -597,6 +634,7 @@ function newsData() {
       id: 69,
       name: "AJCE Xtreme Code 2021",
       type: "event",
+      image: "../../events/images/2021/IEEEXtreme 15.0 coding competition.jpg",
       description: `"In order to be irreplaceable, one must always be different” <br/>
       – Coco Chanel.<br/>
 
@@ -609,6 +647,7 @@ Grab this opportunity to showcase your coding skills👩‍💻👨‍💻`,
       id: 70,
       name: "ONAMADHURAM",
       type: "event",
+      image: "../../events/images/2021/ONAMADHURAM1.jpg",
       badge: "4-day event",
       description: `🎉 ONAMADHURAM🎉<br/>
 
@@ -636,6 +675,7 @@ Grab this opportunity to showcase your coding skills👩‍💻👨‍💻`,
       id: 71,
       name: "ADIEU",
       type: "event",
+      image: "../../events/images/2021/adieu.jpg",
       description: `ADIEU 2021`,
       date: "August/29/2021",
     },
@@ -643,6 +683,7 @@ Grab this opportunity to showcase your coding skills👩‍💻👨‍💻`,
       id: 72,
       name: "SIGHT Inauguration",
       type: "event",
+      image: "../../events/images/2021/SIGHT.jpg",
       description: `"Everyone has a purpose in life and a unique talent to give to others."   <br/>                         
 
     IEEE SB Amal Jyothi College of Engineering is ecstatic to announce the inauguration of IEEE AJCE Special Interest Group on Humanitarian Technology (SIGHT).<br/> 
@@ -660,6 +701,7 @@ Grab this opportunity to showcase your coding skills👩‍💻👨‍💻`,
       id: 73,
       name: "YP Talk",
       type: "event",
+      image: "../../events/images/2021/YP-talk Building Automation Systems.jpg",
       description: `The IAS SBC Amal Jyothi College of Engineering in collaboration with IEEE Kerala Young  Professionals hereby invites you all to witness one of the finest YP Talk on the topic " Building Automation Systems Using KNX ". <br/>
 
       🔶The session will be taken by <br/>
@@ -670,6 +712,7 @@ Grab this opportunity to showcase your coding skills👩‍💻👨‍💻`,
       id: 74,
       name: "The FANTASTIC FIVE",
       type: "event",
+      image: "../../events/images/2021/FANTASTIC FIVE.jpg",
       description: ` IEEE SB Amal Jyothi College of Engineering hereby invites you all 
       to one of the finest talks!<br/>
                          
@@ -679,6 +722,29 @@ Grab this opportunity to showcase your coding skills👩‍💻👨‍💻`,
       date: "September/11/2021",
     },
   ];
+
+  // Home Page Event Details
+  events_2021.forEach((event) => {
+    $(".home-event-section-cards")
+      .append(`<div class="carousel-item special-case">
+      <div class="card border-dark mb-3 rounded event-card" >
+    <div class="row no-gutters">
+      <div class="col-md-4">
+      <a class="venobox" href="${event.image}"><img src="${event.image}" alt="No image to display" class="card-img card-img-class "/></a>
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">${event.name}</h5>
+          <p class="card-text my-0"><small class="text-muted">${event.date} </small></p>
+          <p class="card-text">${event.description}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>`);
+  });
+
+$('.special-case')[0].className += " active";
 
   let events = [
     ...events_2017,
