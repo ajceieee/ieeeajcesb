@@ -298,7 +298,7 @@ function newsData() {
       id: 34,
       name: "ExeCom Training",
       type: "ExeCom Training",
-      image: "",
+      image: "../../events/images/2021/execom-training.jpg",
       description:
         "Student Branch ExeCom Training for IEEE SB AJCE and IEEE SB GECK",
       date: "February/14/2021",
