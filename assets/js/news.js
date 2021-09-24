@@ -562,9 +562,6 @@ function newsData() {
       pandemic
 
       📍 Deadline - 23rd August, 2021
-
-      Register and upload your poster in the given link 👇<br>
-      <a href='http://bit.ly/AJCE_WiE-Afis'>Register Now</a>
 `,
       date: "August/14/2021",
     },
@@ -578,9 +575,108 @@ function newsData() {
       
       Since the current situation is holding us back from celebrating this Onam harmoniously, we are forced to perform programs virtually. So why don't we *Code a Pookalam🌸* ? Won't that be fun? <br/>
       
-      Join this contest, *Code a Pookalam🌸* and win exciting prizes🤩 <br/> To know more visit the link below <br />
-      <a href="http://bit.ly/ajce-pookalam">bit.ly/ajce-pookalam</a>`,
+      Join this contest, *Code a Pookalam🌸* and win exciting prizes🤩 `,
       date: "August/21/2021",
+    },
+    {
+      id: 68,
+      name: "IEEEXtreme 15.0",
+      type: "event",
+      description: `<i>"The secret of getting ahead is getting started. 👣"</i><br />
+
+      Hello folks🤗<br/>
+      
+      We are delighted to invite you to <b>'Talk on XTREME 15.0'</b> organized by <b>IEEE SB Amal Jyothi College of Engineering</b>. 
+      
+      Exclusively conducted for AJCEians‼️
+      
+      📢 <b>Speaker</b> - Nevin Koshy Daniel (IEEEXtreme Campus Ambassador)`,
+      date: "August/26/2021",
+    },
+    {
+      id: 69,
+      name: "AJCE Xtreme Code 2021",
+      type: "event",
+      description: `"In order to be irreplaceable, one must always be different” <br/>
+      – Coco Chanel.<br/>
+
+IEEE SB of Amal Jyothi College Of Engineering proudly presents IEEEXtreme 15.0 coding competition as an IEEEXtreme preparatory event exclusively for AJCEians✨<br/>
+
+Grab this opportunity to showcase your coding skills👩‍💻👨‍💻`,
+      date: "August/27/2021",
+    },
+    {
+      id: 70,
+      name: "ONAMADHURAM",
+      type: "event",
+      badge: "4-day event",
+      description: `🎉 ONAMADHURAM🎉<br/>
+
+      🌸Happy ONAM.🌸 <br/>
+      On this joyous occasion of Onam,  IEEE SB AJCE wish you joy and good health.
+      As part of Onam🌺 we are enchanted to conduct ONAMADHURAM , the online onam.
+      
+      📌 Topic <br/>
+      
+           ⭕️Nattinpurathe malayali<br/>
+                ▪️ Malayalimanga<br/>
+                ▪️Kerala purushan<br/>
+      
+           ⭕️Thithitharo thithithey
+                   (onapattu)<br/>
+      
+           ⭕️Vachala Sadhya      
+                   (one-min Malayalam elocution)<br/>
+      
+           ⭕️Trollanmareh ithile ithile   
+                  (onam troll)`,
+      date: "August/26/2021",
+    },
+    {
+      id: 71,
+      name: "ADIEU",
+      type: "event",
+      description: `ADIEU 2021`,
+      date: "August/29/2021",
+    },
+    {
+      id: 72,
+      name: "SIGHT Inauguration",
+      type: "event",
+      description: `"Everyone has a purpose in life and a unique talent to give to others."   <br/>                         
+
+    IEEE SB Amal Jyothi College of Engineering is ecstatic to announce the inauguration of IEEE AJCE Special Interest Group on Humanitarian Technology (SIGHT).<br/> 
+     
+     ✨The SIGHT program is a global network of groups consisting of IEEE member volunteers and others who partners with a local community or organisation. They work on projects that leverage technology for sustainable development. <br/>
+     
+     🔹 Amarnath Raja, Chair, IEEE A&A Committee, will be joining us for a session on "What is SIGHT?"<br/>
+     
+         Other guests are <br/>
+     🔹Jayakrishnan, Chair, IEEE Kerala Section SIGHT<br/>
+     🔹Dr. Z. V Lakaparambil, Principal, Amal Jyothi College of Engineering`,
+      date: "September/07/2021",
+    },
+    {
+      id: 73,
+      name: "YP Talk",
+      type: "event",
+      description: `The IAS SBC Amal Jyothi College of Engineering in collaboration with IEEE Kerala Young  Professionals hereby invites you all to witness one of the finest YP Talk on the topic " Building Automation Systems Using KNX ". <br/>
+
+      🔶The session will be taken by <br/>
+      Jacob Thomas Puthukeril, Engineer, (Robotics and FA), HIKVISION`,
+      date: "September/12/2021",
+    },
+    {
+      id: 74,
+      name: "The FANTASTIC FIVE",
+      type: "event",
+      description: ` IEEE SB Amal Jyothi College of Engineering hereby invites you all 
+      to one of the finest talks!<br/>
+                         
+       "The FANTASTIC FIVE"<br/>
+ - 5 Soft Skills Every Technical
+  Professional Should Develop.`,
+      date: "September/11/2021",
     },
   ];
 
