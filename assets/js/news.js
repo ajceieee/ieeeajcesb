@@ -721,6 +721,103 @@ Grab this opportunity to showcase your coding skills👩‍💻👨‍💻`,
   Professional Should Develop.`,
       date: "September/11/2021",
     },
+    {
+      id: 75,
+      name: "ROB-O-HUNT",
+      type: "event",
+      image: "../../events/images/2021/rob-o-hunt.jpeg",
+      description: ` Women in Computing of IEEE Computer Society Chapters of IEEE SB ASIET, IEEE SB CEV & IEEE SB AJCE presents ROB-O-HUNT, as part of INFORMATYKA, organized by WiC of IEEE Computer Society Kerala Chapter.`,
+      date: "September/26/2021",
+    },
+    {
+      id: 76,
+      name: "🅑🅞🅞🅣 🅒🅞🅓🅔",
+      type: "event",
+      badge: "3-day event",
+      image: "../../events/images/2021/boot-code.jpeg",
+      description: `𝐈𝐄𝐄𝐄 𝐂𝐨𝐦𝐩𝐮𝐭𝐞𝐫 𝐒𝐨𝐜𝐢𝐞𝐭𝐲 𝐂𝐡𝐚𝐩𝐭𝐞𝐫𝐬 𝐨𝐟 𝐀𝐦𝐚𝐥 𝐉𝐲𝐨𝐭𝐡𝐢 𝐂𝐨𝐥𝐥𝐞𝐠𝐞 𝐨𝐟 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 𝐚𝐧𝐝 𝐍𝐒𝐒 𝐂𝐨𝐥𝐥𝐞𝐠𝐞 𝐨𝐟 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 𝐩𝐫𝐨𝐮𝐝𝐥𝐲 𝐩𝐫𝐞𝐬𝐞𝐧𝐭𝐬💫,
+      🅑🅞🅞🅣 🅒🅞🅓🅔
+
+3-day Bootcamp as part of IEEEXtreme 15.0. A Bootcamp where you get a complete guide to get you prepared for competitive coding including a few tricks and tips✨. `,
+      date: "September/30/2021",
+    },
+    {
+      id: 77,
+      name: "TRICKZA",
+      type: "event",
+      image: "../../events/images/2021/trickza.jpeg",
+      description: ` IEEE AJCE SB as a part of IEEE DAY 2021, is organizing a quiz competition, 'TRICKZA' to play with your brains and test the knowledge you possess.`,
+      date: "October/5/2021",
+    },
+    {
+      id: 78,
+      name: "EUREKA",
+      type: "event",
+      image: "../../events/images/2021/eureka.jpeg",
+      description: ` SIGHT OU of IEEE SB Amal Jyothi College of Engineering presents before you 
+      EUREKA, an idea pitching competition to tackle problems and promote human welfare.
+      <br/>
+      The competition is based on the following themes:<br/>
+      📍Innovation in Medical and Healthcare treatment<br/>
+      📍Environmental Sustenance<br/>
+      📍Poverty Elimination<br/>
+      📍Restructuring Educational curriculum, and teaching methods <br/>
+      📍Technological solutions for traffic control`,
+      date: "October/10/2021",
+    },
+    {
+      id: 79,
+      name: "PEN IT DOWN 🖊️",
+      type: "event",
+      image: "../../events/images/2021/pen-it-down.jpeg",
+      description: ` As a part of IEEE DAY 2021, the WiE AG 👩 of IEEE Student Branch Amal Jyothi College of Engineering is conducting
+      PEN IT DOWN 🖊️, a slogan writing competition. <br/>
+
+📌 Topic : Ada Lovelace Day 
+Ada Lovelace Day 👩‍💻 is an international celebration of the achievements of women 👩‍🔬 in science, technology, engineering and maths (STEM).`,
+      date: "October/6/2021",
+    },
+    {
+      id: 80,
+      name: "OPORTUNIDAD",
+      type: "event",
+      image: "../../events/images/2021/oportunidad.jpeg",
+      description: `Hello folks🤗<br/>
+
+      Have you heard of a stop-motion video? It is an animation technique in which the camera is repeatedly stopped and started, frame by frame, to bring inanimate objects to life.  <br/>
+      
+      IEEE AJCE SB is delighted to conduct  "OPORTUNIDAD"✨ a stop motion video-making competition on the topic "Sustainable Technology for a better future" as  part of IEEE week. `,
+      date: "October/9/2021",
+    },
+    {
+      id: 81,
+      name: " T –JAM ",
+      type: "event",
+      image: "../../events/images/2021/t-jam.jpeg",
+      description: `🅷🅾🅻🅰 🅰🅼🅸🅶🅾🆂!! <br/>
+
+      IAS Chapter of IEEE STUDENT BRANCH AMAL JYOTHI COLLEGE OF ENGINEERING is extremely honoured to announce you to a  Just A Minute Competition as a part of IEEE DAY 2021.`,
+      date: "October/8/2021",
+    },
+    {
+      id: 82,
+      name: "ℝ𝕖𝕒𝕕𝕪, 𝕊𝕖𝕥, 𝕊𝕔𝕒𝕧𝕖𝕟𝕘𝕖 ",
+      type: "event",
+      image: "../../events/images/2021/ready-set-scavenge.jpeg",
+      description: ` Hey folks 👋🏻<br/>
+
+      𝐈𝐄𝐄𝐄 𝐂𝐨𝐦𝐩𝐮𝐭𝐞𝐫 𝐒𝐨𝐜𝐢𝐞𝐭𝐲 𝐂𝐡𝐚𝐩𝐭𝐞𝐫 𝐨𝐟 𝐀𝐦𝐚𝐥 𝐉𝐲𝐨𝐭𝐡𝐢 𝐂𝐨𝐥𝐥𝐞𝐠𝐞 𝐨𝐟 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠  brings forth before you the most excruciating and exhilarating Treasure Hunt as part of 𝐈𝐄𝐄𝐄 𝐃𝐀𝐘 𝟐𝟎𝟐1,<br/>
+            ⚡ ℝ𝕖𝕒𝕕𝕪, 𝕊𝕖𝕥, 𝕊𝕔𝕒𝕧𝕖𝕟𝕘𝕖 ⚡`,
+      date: "October/7/2021",
+    },
+    {
+      id: 83,
+      name: "IEEE Day Celebration",
+      type: "event",
+      image: "../../events/images/2021/ieee_day-celebration.jpeg",
+      description: ``,
+      date: "October/5/2021",
+    },
   ];
 
   // Home Page Event Details
@@ -744,7 +841,7 @@ Grab this opportunity to showcase your coding skills👩‍💻👨‍💻`,
   </div>`);
   });
 
-$('.special-case')[0].className += " active";
+  $(".special-case")[0].className += " active";
 
   let events = [
     ...events_2017,
