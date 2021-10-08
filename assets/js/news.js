@@ -820,8 +820,18 @@ Ada Lovelace Day 👩‍💻 is an international celebration of the achievements
     },
   ];
 
+  let current_events = events_2021;
+
+  let events = [
+    ...events_2017,
+    ...events_2018,
+    ...events_2019,
+    ...events_2020,
+    ...events_2021,
+  ];
+
   // Home Page Event Details
-  events_2021.forEach((event) => {
+  current_events.forEach((event) => {
     $(".home-event-section-cards")
       .append(`<div class="carousel-item special-case">
       <div class="card border-dark mb-3 rounded event-card" >
@@ -841,18 +851,12 @@ Ada Lovelace Day 👩‍💻 is an international celebration of the achievements
   </div>`);
   });
 
-  $(".special-case")[0].className += " active";
+  if ($(".special-case").length != 0) {
+    $(".special-case")[0].className += " active";
+  }else{
+    $("#calendar").evoCalendar();
+    $("#calendar").evoCalendar("addCalendarEvent", events);
+  }
 
-  let events = [
-    ...events_2017,
-    ...events_2018,
-    ...events_2019,
-    ...events_2020,
-    ...events_2021,
-  ];
-
-  $("#calendar").evoCalendar();
-  $("#calendar").evoCalendar("addCalendarEvent", events);
 }
-
 newsData();
