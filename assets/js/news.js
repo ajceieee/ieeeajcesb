@@ -818,6 +818,18 @@ Ada Lovelace Day 👩‍💻 is an international celebration of the achievements
       description: ``,
       date: "October/5/2021",
     },
+    {
+      id: 84,
+      name: "Speak-up",
+      type: "event",
+      image: "../../events/images/2021/speak-up.jpg",
+      description: `"If opportunity doesn't knock, build a door"
+
+      Hola amigos🤗 <br/>
+      
+      Greetings from IEEE AJCE SB💫, Are you someone who is interested in talking and can talk about a topic given at an instant? Then here is an opportunity for you. As part of  IEEE DAY 2021, we are delighted to conduct  “Speak-up” a JAM Competition on the topic : "Ways to reduce dependency on electronic devices in the pandemic."`,
+      date: "October/18/2021",
+    },
   ];
 
   let current_events = events_2021;
