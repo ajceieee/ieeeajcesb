@@ -830,6 +830,106 @@ Ada Lovelace Day 👩‍💻 is an international celebration of the achievements
       Greetings from IEEE AJCE SB💫, Are you someone who is interested in talking and can talk about a topic given at an instant? Then here is an opportunity for you. As part of  IEEE DAY 2021, we are delighted to conduct  “Speak-up” a JAM Competition on the topic : "Ways to reduce dependency on electronic devices in the pandemic."`,
       date: "October/18/2021",
     },
+    {
+      id: 85,
+      name: "75th Anniversary Celebration",
+      type: "",
+      image: "../../events/images/2021/cs-society-75th-anniversary.jpg",
+      description: `IEEE Computer Society 75th Anniversary Celebration at IEEE AJCE SB 🎉`,
+      date: "November/2/2021",
+    },
+    {
+      id: 86,
+      name: "Ethical Hacking Associate",
+      type: "",
+      image: "../../events/images/2021/eha-workshop.jpg",
+      description: `✨ IEEE SB (AJCE and RIT), IEDC (RIT, Rajagiri, GISAT, KJCMT) in collaboration with IIRDC (Institution of Industrial Research and Development Confederation) are thrilled to announce a 24 hours long Workshop/Training on Ethical hacking, providing a chance to gain practical knowledge through hands-on training and to validate participant's entry-level skills in ethical hacking by preparing them to crack EHA (Ethical Hacking Associate) Exam conducted by EC-Council.`,
+      date: "November/26/2021",
+    },
+    {
+      id: 87,
+      name: " What does the World look in Employees?",
+      type: "",
+      image: "../../events/images/2021/trycle.jpg",
+      description: `IEEE SB AJCE in collaboration with TRYCLE is ecstatic to announce a Talk on “ What does the World look in Employees ?” to help students explore and engage the amazing skills of the vibrant aspirants . The talk would  help students know how to stand out during placements and the don'ts for interviews.`,
+      date: "November/28/2021",
+    },
+    {
+      id: 88,
+      name: "Spectrum Talk",
+      type: "",
+      image: "../../events/images/2021/spectrum-talk.jpg",
+      description: `Greetings from IEEE AJCE SB✨
+
+      IEEE Spectrum is the flagship magazine of the world's largest professional organization devoted to engineering and the applied sciences.
+      
+      We hereby present you SPECTRUM TALK (November Edition) exclusively for IEEE Members.`,
+      date: "December/07/2021",
+    },
+    {
+      id: 89,
+      name: "Game On",
+      type: "",
+      image: "../../events/images/2021/game-on.jpg",
+      description: `IEEE AJCE SB is hosting a
+      4 Day game event - ✨ GAME-ON✨an interactive online cultural event as an ice-breaking event for the annual Membership Development Session.`,
+      date: "December/16/2021",
+    },
+    {
+      id: 90,
+      name: "Membership Development session 2022",
+      type: "",
+      image: "../../events/images/2021/md-session-2022.jpg",
+      description: `Hola Fellas!🤗
+      The IEEE Student Branch of Amal Jyothi College of Engineering is hosting an ecstatic Membership Development session.`,
+      date: "December/20/2021",
+    },
+    {
+      id: 91,
+      name: "🔮 ℙ𝕌𝕃𝕊𝔸𝕋ℍ𝕆ℕ 𝟙.𝟘 🔮",
+      type: "",
+      image: "../../events/images/2021/pulsathon.jpg",
+      description: `IEEE SB AJCE in collaboration with IEEE SBC IAS AJCE and IEEE SIGHT AJCE excitedly presents
+        <br>
+      🔮 ℙ𝕌𝕃𝕊𝔸𝕋ℍ𝕆ℕ 𝟙.𝟘 🔮<br>
+      
+      🔖 Workshop on Automatic Hand Sanitizer Dispenser and Familiarization of Electronic Sensors and Circuits.`,
+      date: "",
+    },
+    {
+      id: 92,
+      name: "INTER<b>CV</b>IEW",
+      type: "",
+      image: "../../events/images/2021/interCView.jpg",
+      description: `Hola Amigos 👋🏻<br>.
+
+      Do you wish to prepare a good CV? Do you want to enhance your interview skills and hit a good opportunity?<br>
+      
+      Come and join us for this vibrant event. 🤗<br>
+      
+      As part of the 2021 PES CSAC Leadership Ambassador Program (STEP Category). IEEE SB AJCE is delighted to announce a webinar on<br>
+      📌 How to prepare a good CV<br>
+      📌 How to excel in an interview`,
+      date: "December/30/2021",
+    },
+    {
+      id: 93,
+      name: "IEEE EdSoc KC Gateway to Infosys Springboard",
+      type: "",
+      image: "../../events/images/2021/infosys-springboard.jpg",
+      description: `IEEE SB AJCE in collaboration with IEEE Education society Kerala Chapter and Infosys Springboard is opening the registration for the IEEE EdSoc KC Gateway to Infosys Springboard.`,
+      date: "January/14/2022",
+    },
+    {
+      id: 94,
+      name: "AGM 2022",
+      type: "",
+      image: "../../events/images/2021/agm-2022.jpeg",
+      description: `Hola Amigos!✨<br>
+
+      The IEEE SB AJCE is gearing up for its 2022 Annual General Meeting. It's time to finish off the stewardship and pass it on to the young, energetic volunteers among us who will be a part of IEEE SB AJCE EXECOM for the forthcoming year.`,
+      date: "February/28/2022",
+    },
   ];
 
   let current_events = events_2021;
@@ -865,10 +965,9 @@ Ada Lovelace Day 👩‍💻 is an international celebration of the achievements
 
   if ($(".special-case").length != 0) {
     $(".special-case")[0].className += " active";
-  }else{
+  } else {
     $("#calendar").evoCalendar();
     $("#calendar").evoCalendar("addCalendarEvent", events);
   }
-
 }
 newsData();
