@@ -94,6 +94,15 @@
   color: white;
 }
 
+.sight-society {
+  background-color: #831843;
+  color: white;
+}
+
+.sight-society .testimonials-card-author h4 {
+  color: white;
+}
+
 @media (max-width: 991) {
   #scroll-bar::-webkit-scrollbar {
     width: 10px;
