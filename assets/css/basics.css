@@ -95,11 +95,20 @@
 }
 
 .sight-society {
-  background-color: #831843;
+  background-color: #0b5172;
   color: white;
 }
 
 .sight-society .testimonials-card-author h4 {
+  color: white;
+}
+
+.sscs-society {
+  background-color: #ab200d;
+  color: white;
+}
+
+.sscs-society .testimonials-card-author h4 {
   color: white;
 }
 
