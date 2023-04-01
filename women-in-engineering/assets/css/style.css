@@ -434,7 +434,7 @@ h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 110px);
-  /* background: url("../img/hero-bg.jpg") top center; */
+  background: url("../img/wie-group.jpg");
   background-color:#772583;
   /* background-image: url(../img/events/asvasya/cam-1.jpeg) top center; */
   background-size: cover;
@@ -603,10 +603,10 @@ section {
 }
 
 .why-us .box {
-  padding: 50px 30px;
+  padding: 40px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
-  
+  height: 250px;
 }
 
 .why-us .box span {
@@ -1446,5 +1446,14 @@ section {
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
+  }
+}
+
+.exceom-img {
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+}
+@media screen and (min-width: 768px) {
+  .exceom-img {
+    width: 35rem; /* set width for large devices */
   }
 }
