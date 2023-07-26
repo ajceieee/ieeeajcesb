@@ -1196,7 +1196,7 @@ h6 {
 # Subscribe Section
 --------------------------------------------------------------*/
 #subscribe {
-  padding: 60px;
+  padding: 60px 10px;
   /* background: url(../img/subscribe-bg.jpg) center center no-repeat; */
   background: rgba(26,  47, 52, 0.8); 
   background-size: cover;
